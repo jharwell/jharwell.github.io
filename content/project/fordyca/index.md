@@ -38,6 +38,11 @@ links:
   icon_pack: fab
   icon: github
 
+- url: https://swarm-robotics-fordyca.readthedocs.io/en/latest
+  icon_pack: fa
+  icon: book
+  name: 'Docs'
+
 url_code: ""
 url_pdf: ""
 url_slides: ""

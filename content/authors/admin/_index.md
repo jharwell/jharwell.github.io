@@ -30,7 +30,7 @@ education:
     year: 2013
   - course: MSc in Computer Science
     institution: University of Minnesota
-    year: 2018
+    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

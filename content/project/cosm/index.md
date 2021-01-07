@@ -1,19 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "SIERRA"
-summary: "Swarm InteElligence Reusable ARGoS Automation"
+title: "COSM"
+summary: "COre SwarM"
 authors: []
 tags:
-- research
+- C++
 - argos
-- automation
 - active
 
 weight: 1
-
 categories: []
-#date: 2021-01-07T13:09:08-06:00
+#date: 2021-01-07T16:19:31-06:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -30,11 +28,11 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Github
-  url: https://github.com/swarm-robotics/sierra.git
+  url: https://github/swarm-robotics/cosm.git
   icon_pack: fab
   icon: github
 
-- url: https://swarm-robotics-sierra.readthedocs.io/en/latest
+- url: https://swarm-robotics-cosm.readthedocs.io/en/latest
   icon_pack: fa
   icon: book
   name: 'Docs'
@@ -51,7 +49,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
-Python framework for automating a common research pipeline in swarm
-robotics. ARGoS extension. It is named thusly because it will save you a
-LITERAL, (not figurative) mountain of work.
