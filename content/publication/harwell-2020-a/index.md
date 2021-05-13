@@ -9,7 +9,12 @@ authors:
 - John Harwell
 - London Lowmanstone
 - Maria Gini
-tags: []
+
+tags:
+- task_allocation
+- matroids
+- graph_theory
+
 categories: []
 date: '2020-05-01'
 lastmod: 2021-01-07T11:08:34-06:00

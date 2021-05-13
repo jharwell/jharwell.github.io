@@ -19,16 +19,16 @@
   weight = 30
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Demos"
+  url = "#demos"
   weight = 40
 
-# [[main]]
-#   name = "Posts"
-#   url = "#posts"
-#   weight = 20
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 50
 
 [[main]]
    name = "CV"
    url = "media/master.pdf"
-   weight = 50
+   weight = 60

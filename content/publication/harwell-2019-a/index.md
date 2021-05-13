@@ -8,7 +8,11 @@ summary: ''
 authors:
 - John Harwell
 - Maria Gini
-tags: []
+
+tags:
+- swarm_engineering
+- foraging
+
 categories: []
 date: '2019-01-01'
 lastmod: 2021-01-07T11:08:34-06:00

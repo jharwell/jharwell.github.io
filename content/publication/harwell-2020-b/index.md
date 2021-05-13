@@ -6,13 +6,15 @@ subtitle: ''
 summary: ''
 authors:
 - John Harwell
+
 tags:
-- '"construction"'
-- '"stochastic processes"'
-- '"graph theory"'
-- '"task allocation"'
-- '"swarm robotics"'
-- '"foraging"'
+- construction
+- stochastic_processes
+- graph_theory
+- task_allocation
+- swarm_robotics
+- foraging
+
 categories: []
 date: '2020-01-01'
 lastmod: 2021-01-07T11:57:39-06:00

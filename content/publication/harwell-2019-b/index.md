@@ -7,7 +7,14 @@ subtitle: ''
 summary: ''
 authors:
 - John Harwell
-tags: []
+tags: 
+- construction
+- stochastic_processes
+- graph_theory
+- task_allocation
+- swarm_robotics
+- foraging
+
 categories: []
 date: '2019-07-01'
 lastmod: 2021-01-07T11:08:34-06:00

@@ -4,10 +4,17 @@
 title: Broadening applicability of swarm-robotic foraging through constraint relaxation
 subtitle: ''
 summary: ''
+
 authors:
 - John Harwell
 - Maria Gini
-tags: ["FORDYCA"]
+
+tags:
+- task_alloc
+- static_caches
+- argos
+- foraging
+
 categories: []
 date: '2018-01-01'
 lastmod: 2021-01-07T11:08:34-06:00
@@ -30,7 +37,7 @@ image:
 projects: ['fordyca']
 publishDate: '2021-01-07T17:08:33.830909Z'
 publication_types:
-- '2'
+- '1'
 abstract: ''
 publication: "*IEEE Int'l Conf. on Simulation, Modeling, and Programming for Autonomous\
   \ Robots (SIMPAR)*"

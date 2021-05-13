@@ -7,7 +7,14 @@ summary: ''
 authors:
 - John Harwell
 - Maria Gini
-tags: []
+
+tags:
+- task_allocation
+- swarm_robotics
+- swarm_engineering
+- queueing_theory
+- foraging
+
 categories: []
 date: '2020-11-01'
 lastmod: 2021-01-07T11:08:35-06:00
