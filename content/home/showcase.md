@@ -5,12 +5,12 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Demos"
+title = "Showcase"
 subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "demo"
+  page_type = "showcase"
 
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -22,8 +22,16 @@ subtitle = ""
   filter_default = 0
 
     [[content.filter_button]]
+     name = "All"
+     tag = "*"
+     
+    [[content.filter_button]]
      name = "IJCAI 2021"
      tag = "ijcai-2021"
+
+    [[content.filter_button]]
+     name = "TRO 2021"
+     tag = "tro-2021"
 
 
 [design]

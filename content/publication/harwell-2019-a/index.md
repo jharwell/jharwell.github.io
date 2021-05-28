@@ -35,7 +35,7 @@ image:
 projects: ['fordyca']
 publishDate: '2021-01-07T17:08:34.190970Z'
 publication_types:
-- '2'
+- '1'
 abstract: ''
 publication: '*International Joint Conference on Artificial Intelligence (IJCAI)*'
 links:

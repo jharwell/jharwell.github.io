@@ -19,8 +19,8 @@
   weight = 30
 
 [[main]]
-  name = "Demos"
-  url = "#demos"
+  name = "Showcase"
+  url = "#showcase"
   weight = 40
 
 [[main]]

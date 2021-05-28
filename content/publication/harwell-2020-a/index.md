@@ -37,7 +37,7 @@ image:
 projects: ['fordyca']
 publishDate: '2021-01-07T17:08:34.544705Z'
 publication_types:
-- '2'
+- '1'
 abstract: 'We investigate the emergence of swarm intelligence using task allo-
 cation in large robot swarms. First, we compare task decomposition
 graphs of different levels of richness and measure the emergent

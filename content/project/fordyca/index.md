@@ -56,20 +56,26 @@ url_video: ""
 slides: ""
 ---
 
-In this project, I investigate the following questions:
+In this project, I have investigated the following questions:
+
+- In environments not specifically designed to be amenable to using caches
+  (temporal pickup/drop sites), such as flat, open spaces, can caches still be
+  used to increase performance? Short answer: _yes_, long answer: [SIMPAR2018]({{<ref "publication/harwell-2018">}}).
+
+- Can swarm scalability, emergent self-organization, flexibility, and robustness
+  be quantitatively measured (as opposed to just observed) ? Short answer:
+  _yes_, long answer: [IJCAI2019]({{<ref "publication/harwell-2019-a">}}),
+  [TRO2021]({{<ref "publication/harwell-2020-c">}}).
 
 - Is it possible for a swarm of intelligent, autonomous robots engaged in a
-foraging task (i.e. collecting blocks and bringing them to a central location)
-to dynamically choose the location of the cache(s) (temporary pickup/drop sites)
-in the arena in an efficient manner to improve overall efficiency?
+  foraging task (i.e. collecting blocks and bringing them to a central location)
+  to dynamically choose the location of the cache(s) (temporary pickup/drop
+  sites) in the arena in an efficient manner to improve overall efficiency?
+  Short answer: _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a">}}).
 
-- Can the robots be made to allocate themselves to the various sub-tasks
-involved in transporting a block from its original location to the central
-collection location such that throughput is maximized?
-
-- Given a rich set of interdependent tasks specifying various parts of an
-overall foraging task, what does the swarm collectively learn as foraging
-progresses?
-
-Previous work in this space has investigated the maximization of throughput, but
-never in the context of dynamic cache placement as well.
+- Is the richness of a set of interdependent tasks specifying various parts of
+  an overall foraging task which robots can choose from correlated with
+  intelligence ? That is, if you give a swarm of robots more ways
+  to accomplish the same task, does the same demonstrate more emergent
+  intelligence than if you only give it a few ways to accomplish the same task ?
+  Short answer: _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a">}}).
