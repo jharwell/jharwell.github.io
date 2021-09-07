@@ -12,6 +12,7 @@ authors:
 tags:
 - swarm_engineering
 - foraging
+- ijcai2019
 
 categories: []
 date: '2019-01-01'
