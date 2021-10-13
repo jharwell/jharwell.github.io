@@ -6,6 +6,7 @@ summary: "Reusable C SoftWare"
 authors: []
 tags:
 - C
+- Active 
 
 weight: 1
 
@@ -45,4 +46,4 @@ slides: ""
 ---
 This is a collection of reusable, general purpose C code that I have built up
 over the years, and that I update as I have time, implementing various data
-structures and algorithms as I need to, or as I have time.  
+structures and algorithms as I need to, or as I have time.

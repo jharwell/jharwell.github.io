@@ -10,22 +10,22 @@
 
 [[main]]
   name = "Publications"
-  url = "#publications"
+  url = "#conference-proceedings"
   weight = 20
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "projects-landing/"
   weight = 30
 
 [[main]]
   name = "Presentations"
-  url = "#talks"
+  url = "presentations-landing/"
   weight = 40
 
 [[main]]
   name = "Showcase"
-  url = "#showcase"
+  url = "showcase-landing/"
   weight = 50
 
 [[main]]

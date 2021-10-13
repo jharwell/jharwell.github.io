@@ -6,8 +6,11 @@ summary: "COre SwarM"
 authors: []
 tags:
 - C++
-- argos
-- active
+- ARGoS
+- Task Allocation
+- Hardware Abstraction
+- Platform Abstraction
+- Active
 
 weight: 1
 categories: []

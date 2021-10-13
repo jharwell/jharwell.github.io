@@ -6,14 +6,12 @@ summary: "FOraging Robots use DYnamic CAches"
 
 authors: []
 tags:
-- research
-- task_alloc
-- dynamic_caches
-- static_caches
+- Research
+- Task Allocation
 - C++
-- argos
-- foraging
-- active
+- ARGoS
+- Foraging
+- Active
 
 weight: 1
 categories: []
@@ -56,26 +54,36 @@ url_video: ""
 slides: ""
 ---
 
-In this project, I have investigated the following questions:
+In this project, I have investigated the following research questions, using
+foraging task (i.e. collecting blocks and bringing them to a central location)
+as a testbed:
 
 - In environments not specifically designed to be amenable to using caches
-  (temporal pickup/drop sites), such as flat, open spaces, can caches still be
-  used to increase performance? Short answer: _yes_, long answer: [SIMPAR2018]({{<ref "publication/harwell-2018">}}).
+  (temporal pickup/drop sites), such as flat, open spaces, can static caches
+  (those at a predetermined location maintained by an outside process) still be
+  used to increase performance? Short answer: _yes_, long answer:
+  [SIMPAR2018]({{<ref "publication/harwell-2018">}}).
 
-- Can swarm scalability, emergent self-organization, flexibility, and robustness
-  be quantitatively measured (as opposed to just observed) ? Short answer:
-  _yes_, long answer: [IJCAI2019]({{<ref "publication/harwell-2019-a">}}),
+- Swarms have many desirable properties, such as scalability, emergent
+  self-organization, flexibility, and robustness--can these properties be
+  quantitatively measured (as opposed to just observed) ? Short answer: _yes_,
+  long answer: [IJCAI2019]({{<ref "publication/harwell-2019-a">}}),
   [TRO2021]({{<ref "publication/harwell-2020-c">}}).
 
-- Is it possible for a swarm of intelligent, autonomous robots engaged in a
-  foraging task (i.e. collecting blocks and bringing them to a central location)
-  to dynamically choose the location of the cache(s) (temporary pickup/drop
-  sites) in the arena in an efficient manner to improve overall efficiency?
-  Short answer: _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a">}}).
+- In environments not specifically designed to be amenable to using caches, can
+  dynamic caches (those which are placed dynamically by robots, and can be
+  created/depleted over time as conditions evolve) be used to improve overall
+  efficiency?  Short answer: _yes_, long answer: [AAMAS2020]({{<ref
+  "publication/harwell-2020-a">}}).
 
-- Is the richness of a set of interdependent tasks specifying various parts of
-  an overall foraging task which robots can choose from correlated with
-  intelligence ? That is, if you give a swarm of robots more ways
-  to accomplish the same task, does the same demonstrate more emergent
-  intelligence than if you only give it a few ways to accomplish the same task ?
-  Short answer: _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a">}}).
+- Is the "connectedness" of a set of interdependent tasks (i.e., which tasks are
+  dependencies for multiple other tasks) specifying various parts of an overall
+  foraging task which robots can choose from correlated with intelligence ? That
+  is, if you give a swarm of robots more ways to accomplish the same task (e.g.,
+  the overall task, two halves of the overall task, four 1/4 chunks of the
+  overall task, etc.), does the same demonstrate more emergent intelligence than
+  if you only give it a few ways to accomplish the same task ?  Short answer:
+  _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a">}}).
+
+This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
+experiments and processing results.

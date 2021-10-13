@@ -1,17 +1,21 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "RCPPSW"
-summary: "Reusable C++ SoftWare"
+title: "PRISM"
+summary: "Phased Robotic ISomorphic graph Manipulation CAches"
+
 authors: []
 tags:
+- Research
+- Construction
+- Graph Theory
 - C++
+- ARGoS
 - Active
 
-weight: 2
-
+weight: 1
 categories: []
-#date: 2021-01-07
+date: 2021-01-07T12:07:58-06:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -28,11 +32,11 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Github
-  url: https://github.com/swarm-robotics/rcppsw.git
+  url: https://github.com/swarm-robotics/prism.git
   icon_pack: fab
   icon: github
 
-- url: https://swarm-robotics-rcppsw.readthedocs.io/en/latest
+- url: https://swarm-robotics-prism.readthedocs.io/en/latest
   icon_pack: fa
   icon: book
   name: 'Docs'
@@ -49,11 +53,15 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-This is a collection of reusable, general purpose C++ code that I have built up
-over the years, and that I update as I have time, implementing various data
-structures, algorithms, abstractions as I need to. One of the challenges of
-creating/maintaining a C++ library is that there are so many other libraries out
-there like Boost, that I have to strike a balance between building something
-from scratch, because I don’t want to try and figure out how to use another
-library, and rolling my own version because I don’t need the industrial strength
-version.
+
+In this project, I have investigated the following questions:
+
+- Can we model how a large swarm of robots interacts with and manipulates its
+  environment in a general way using graph theory? Can we derive a set of
+  properties that graphs representing structures which can be constructed or
+  deconstructed by swarms such that from a valid starting graph state the swarm is
+  provably guaranteed to reach a final graph state, even though the sequence of
+  actions to reach the final state is not specified in advance?
+
+This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
+experiments and processing results.

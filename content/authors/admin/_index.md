@@ -18,19 +18,24 @@ bio: My research interests include swarm robotics, emergent behavior, and mathem
 
 interests:
 - Swarm Intelligence/Robotics
-- Stochastic Processes
+- Mathematical Modeling of Multi-agent Systems
 - Task Allocation
 - Algorithm Design
-- Mathematical Modeling
+- Embedded Systems
 
 education:
   courses:
+  - course: PhD in Computer Science
+    institution: University of Minnesota
+    year: 2022 (expected)
+
+  - course: MSc in Computer Science
+    institution: University of Minnesota
+    year: 2018
+
   - course: BSc in Computer Engineering
     institution: University of Wisconsin-Madison
     year: 2013
-  - course: MSc in Computer Science
-    institution: University of Minnesota
-    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -76,17 +81,20 @@ user_groups:
 - Visitors
 ---
 
-I am a member of the Artificial Intelligence, Robotics, and Vision Laboratory at
-the University of Minnesota, under the direction of Dr. Maria Gini, my
-advisor. My research interests lie broadly in the investigation of emergent
-behavior in large interacting multi-agent systems, at the intersection of task
-allocation, mathematical modeling, swarm robotics, and swarm intelligence.  More
-specifically, my research includes developing mathematical models for predictive
-control of large-scale multi-agent robotic systems to create programmable robot
-swarms for applications such as autonomous construction, mining, and space
-exploration.
+I am a PhD candidate at the University of Minnesota, and member of the
+Artificial Intelligence, Robotics, and Vision Laboratory at the University of
+Minnesota, under the direction of Dr. Maria Gini, my advisor. My research
+interests lie broadly in the investigation of emergent behavior in large
+interacting multi-agent systems, at the intersection of task allocation,
+mathematical modeling, swarm robotics, and swarm intelligence.  I'm interested
+in two main areas. First, understanding the fundamental principles of large
+swarms, including the "unpredictable" behaviors which emerge as such complex
+systems interact with their environments in non-trivial ways, to develop better
+models of collective behavior. Second, developing mathematical models for
+predictive control of large-scale multi-agent robotic systems to create
+programmable robot swarms for applications in dangerous or unstable environments
+such as autonomous construction, mining, and space exploration.
 
-My areas of expertise include: swarm intelligence, swarm robotics, swarm
-emergent behavior, algorithm design, data structures, stochastic modeling,
-software engineering, real-time embedded systems, and high performance
-computing.
+My areas of expertise include: swarm intelligence, swarm robotics, mathematical
+modeling of multi-agent systems, algorithm design, data structures, software
+engineering, real-time embedded systems, and high performance computing.

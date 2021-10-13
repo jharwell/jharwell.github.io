@@ -8,16 +8,15 @@ summary: ''
 authors:
 - John Harwell
 - Maria Gini
-
 tags:
-- swarm_engineering
+- Swarm Engineering
 - foraging
 - ijcai2019
 
 categories: []
-date: '2019-01-01'
+date: '2019-07-01'
 lastmod: 2021-01-07T11:08:34-06:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
@@ -33,13 +32,16 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ['fordyca']
-publishDate: '2021-01-07T17:08:34.190970Z'
+projects: [fordyca]
+publishDate: '2021-10-13T19:10:52.920988Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*International Joint Conference on Artificial Intelligence (IJCAI)*'
+publication: '*Proceedings of the Twenty-Eighth International Joint Conference on
+  Artificial Intelligence, IJCAI-19*'
 links:
-- name: 'PDF'
-  url: 'https://www.ijcai.org/proceedings/2019/0048.pdf'
+- name: PDF
+  url: https://www.ijcai.org/proceedings/2019/0048.pdf
+url_pdf: https://doi.org/10.24963/ijcai.2019/48
+doi: 10.24963/ijcai.2019/48
 ---

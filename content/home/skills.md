@@ -16,32 +16,27 @@ subtitle = ""
 
 [[feature]]
   name = "Mathematical modeling"
-  description = "Stochastic processes, ODE modeling, matroids"
+  description = "Stochastic processes, Differential Equations, Graphs, Matroids"
 
 [[feature]]
   name = "Swarm Intelligence"
-  description = "Genetic algorithms, emergent behavior"
-
+  description = "Genetic algorithms, Biomimetic Algorithms, Emergent Behavior"
 
 [[feature]]
   name = "Optimization"
-  description = "Linear programming, computational optimization"
+  description = "Linear Programming, Computational Optimization"
 
 [[feature]]
   name = "Programming Languages"
-  description = "C++, C, python, Fortran"
+  description = "C++, C, Python"
 
 [[feature]]
   name = "Platforms"
-  description = "Linux, RTEMS"
+  description = "Linux, RTEMS, HPC Clusters, ARGoS, ROS"
 
 [[feature]]
   name = "Software"
-  description = "ARGoS, Boost, OpenMP, MPI"
-
-[[feature]]
-  name = "Tools"
-  description = "LLVM,VTune"
+  description = "Boost, OpenMP, MPI, LLVM, VTune, git, cmake"
 
 # Uncomment to use emoji icons.
 # [[feature]]

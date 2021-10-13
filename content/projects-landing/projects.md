@@ -22,33 +22,36 @@ subtitle = ""
   filter_default = 0
 
     [[content.filter_button]]
+     name = "Research"
+     tag = "Research"
+
+    [[content.filter_button]]
+     name = "Task Allocation"
+     tag = "Task Allocation"
+
+    [[content.filter_button]]
+     name = "Foraging"
+     tag = "Foraging"
+
+     [[content.filter_button]]
+     name = "Construction"
+     tag = "Construction"
+
+    [[content.filter_button]]
       name = "Active Projects"
-      tag = "active"
+      tag = "Active"
+
+    [[content.filter_button]]
+      name = "Past Projects"
+      tag = "Inactive"
+
+    [[content.filter_button]]
+     name = "Projects Using ARGoS"
+     tag = "ARGoS"
 
     [[content.filter_button]]
      name = "All"
      tag = "*"
-
-    [[content.filter_button]]
-     name = "Research"
-     tag = "research"
-
-    [[content.filter_button]]
-     name = "Task Allocation"
-     tag = "task_alloc"
-
-    [[content.filter_button]]
-     name = "Static Caches"
-     tag = "static_caches"
-
-    [[content.filter_button]]
-     name = "Dynamic Caches"
-     tag = "dynamic_caches"
-
-    [[content.filter_button]]
-     name = "ARGoS"
-     tag = "argos"
-
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

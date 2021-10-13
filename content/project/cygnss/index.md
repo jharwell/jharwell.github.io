@@ -6,14 +6,15 @@ summary: "CYClone Global Navigation Satellite System"
 authors: []
 tags:
 - C
-- Spacecraft Flight Software
+- Flight Software
+- Inactive
 
 weight: 0
 categories: []
 date: 2016-12-01
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://www.nasa.gov/cygnss"
+external_link: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -42,6 +43,13 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+
+links:
+- name: 'NASA Website'
+  icon: 'space-shuttle'
+  icon_pack: fas
+  url: "https://www.nasa.gov/cygnss"
+
 ---
 While employed an SwRI in San Antonio, TX, I was one of the main developers for
 CYGNSS, a NASA contract awarded to SwRI. The purpose of the CYGNSS mission was

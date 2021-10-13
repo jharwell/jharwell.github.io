@@ -5,10 +5,9 @@ title: "SIERRA"
 summary: "Swarm InteElligence Reusable ARGoS Automation"
 authors: []
 tags:
-- research
-- argos
-- automation
-- active
+- Research
+- ARGoS
+- Active
 
 weight: 1
 
@@ -83,5 +82,17 @@ Automated pipeline currently contains:
 
 5. Generating camera ready graphs comparing swarm behaviors within a single
    scenario and across multiple scenarios.
+
+It has been used in many of my research projects:
+
+-  [FORDYCA]({{<ref "project/fordyca">}}) 
+-  [PRISM]({{<ref "project/prism">}}) 
+
+and publications:
+
+-  [IJCAI2019]({{<ref "publication/harwell-2019-a">}}) 
+-  [AAMAS2020]({{<ref "publication/harwell-2020-a">}}) 
+-  [TRO2021]({{<ref "publication/harwell-2020-c">}}) 
+
 
 To get started, check out the [docs](https://swarm-robotics-sierra.readthedocs.io/en/latest).

@@ -38,7 +38,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-01-07T17:08:35.082328Z'
+publishDate: '2021-10-13T19:09:52.615722Z'
 publication_types:
 - '2'
 abstract: This paper reports, for the first time, the computational performance of

@@ -6,14 +6,12 @@ subtitle: ''
 summary: ''
 authors:
 - John Harwell
-
 tags:
-- construction
-- stochastic_processes
-- graph_theory
-- task_allocation
-- swarm_robotics
-- foraging
+- Foraging
+- Graph Theory
+- Matroids
+- Task Allocation
+- Construction
 
 categories: []
 date: '2020-01-01'
@@ -34,8 +32,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ['fordyca']
-publishDate: '2021-01-07T17:57:39.180804Z'
+projects: [fordyca]
+publishDate: '2021-10-13T19:10:52.746579Z'
 publication_types:
 - '1'
 abstract: Self-organized task allocation is possible with systems designed using the
@@ -49,6 +47,6 @@ publication: '*Proceedings of the 19th International Conference on Autonomous Ag
   and MultiAgent Systems*'
 
 links:
-- name: 'PDF'
+- name: PDF
   url: http://ifaamas.org/Proceedings/aamas2020/pdfs/p2191.pdf
 ---

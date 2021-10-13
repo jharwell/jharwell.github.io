@@ -1,22 +1,20 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: A Unified Mathematical Approach for Foraging and Construction Systems in a
-  1,000,000 Robot Swarm
+title: Analysis of Exploration in Swarm Robotic Systems
 subtitle: ''
 summary: ''
 authors:
+- Minyoung Jeong
 - John Harwell
+- Maria Gini
 tags:
-- Construction
-- Graph Theory
-- Task Allocation
 - Foraging
 
 categories: []
-date: '2019-07-01'
-lastmod: 2021-01-07T11:08:34-06:00
-featured: false
+date: '2021-01-01'
+lastmod: 2021-01-07T11:08:35-06:00
+featured: true
 draft: false
 
 # Featured image
@@ -33,14 +31,12 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: [fordyca]
-publishDate: '2021-10-13T19:09:53.159743Z'
+publishDate: '2021-10-13T19:10:52.394859Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*Proceedings of the Twenty-Eighth International Joint Conference on
-  Artificial Intelligence, IJCAI-19*'
-links:
-- name: PDF
-  url: https://www.ijcai.org/proceedings/2019/0908.pdf
-doi: 10.24963/ijcai.2019/908
+
+publication: '*Proceedings of the 16th International Conference on Intelligent Autonomous
+  Systems (IAS-16)*'
+
 ---

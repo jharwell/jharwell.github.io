@@ -1,22 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: A Unified Mathematical Approach for Foraging and Construction Systems in a
-  1,000,000 Robot Swarm
+title: Socially Inspired Communication in Swarm Robotics
 subtitle: ''
 summary: ''
 authors:
+- Nathan White
 - John Harwell
-tags:
-- Construction
-- Graph Theory
-- Task Allocation
-- Foraging
-
+- Maria Gini
+tags: []
 categories: []
-date: '2019-07-01'
-lastmod: 2021-01-07T11:08:34-06:00
-featured: false
+date: '2019-01-01'
+lastmod: 2021-10-12T16:45:15-05:00
+featured: true
 draft: false
 
 # Featured image
@@ -33,14 +29,14 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: [fordyca]
-publishDate: '2021-10-13T19:09:53.159743Z'
+publishDate: '2021-10-12T21:45:13.929074Z'
 publication_types:
-- '1'
+- '5'
 abstract: ''
-publication: '*Proceedings of the Twenty-Eighth International Joint Conference on
-  Artificial Intelligence, IJCAI-19*'
+publication: '*arXiv:1906.01108 [cs.RO]*'
 links:
-- name: PDF
-  url: https://www.ijcai.org/proceedings/2019/0908.pdf
-doi: 10.24963/ijcai.2019/908
+- name: 'ArXiv'
+  url: https://arxiv.org/abs/1906.01108
+  icon: "arxiv"
+  icon_pack: "ai"
 ---

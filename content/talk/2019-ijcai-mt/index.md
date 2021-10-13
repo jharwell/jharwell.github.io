@@ -1,8 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Workshop: A Robust Model for Predicting Collective Behavior in Large Robot Swarms"
-event: IJCAI ARMS Workshop 2021
+title: "Conference: Swarm Engineering Through Quantitative Measurement of Swarm Robotic
+Principles in a 10,000 Robot Swarm"
+event: IJCAI 2019
 event_url:
 location:
 address:
@@ -16,7 +17,7 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-06-04
+date: 2019-08-10
 # date_end: 2018-05-25
 all_day: true
 
@@ -25,10 +26,9 @@ all_day: true
 
 authors: [John Harwell]
 tags:
-- research
-- ODE modeling
-- argos
-- foraging
+- ijcai2019
+- Swarm Engineering
+- Foraging
 
 # Is this a featured event? (true/false)
 featured: false
@@ -50,7 +50,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: 2021-icra-arms.pptx
+url_slides: 2019-ijcai-mt.pptx
 
 url_code:
 url_pdf:

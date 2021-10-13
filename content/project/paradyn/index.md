@@ -7,7 +7,9 @@ authors: []
 tags:
 - C++
 - HPC
+- Research
 - Genetic Algorithms
+- Inactive
 
 weight: 0
 categories: []
@@ -44,7 +46,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-While employed an SwRI in San Antonio, TX, I developed a parallel, dynamic
+While employed at SwRI in San Antonio, TX, I developed a parallel, dynamic
 optimization engine driven by a genetic algorithm for the purposes of optimizing
 the performance of computationally intensive simulations/analyses at
 runtime. Compilers are excellent at performing static analysis to deliver the

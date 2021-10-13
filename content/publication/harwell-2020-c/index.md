@@ -9,11 +9,9 @@ authors:
 - Maria Gini
 
 tags:
-- task_allocation
-- swarm_robotics
-- swarm_engineering
-- queueing_theory
-- foraging
+- Swarm Engineering
+- Queueing Theory
+- Foraging
 
 categories: []
 date: '2020-11-01'

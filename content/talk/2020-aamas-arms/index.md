@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Conference: Demystifying Emergent Intelligence and Its Effect or
-Performance in Large Robot Swarms"
+title: "Workshop: Robustness Analysis in Large Robot Swarms"
 event: AAMAS 2020
 event_url:
 location:
@@ -26,11 +25,11 @@ all_day: true
 
 authors: [John Harwell]
 tags:
-- research
-- task_alloc
-- emergent_behavior
-- graph_theory
-- foraging
+- Task Allocation
+- Graph Theory
+- Foraging
+- Matroids
+- aamas2020
 
 # Is this a featured event? (true/false)
 featured: false
@@ -52,7 +51,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: 2020-aamas.pptx
+url_slides: 2020-aamas-arms.pptx
 
 url_code:
 url_pdf:

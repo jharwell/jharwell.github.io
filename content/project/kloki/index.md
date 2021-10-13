@@ -2,11 +2,12 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "KLOKI"
-summary: "Linux Kernel Fault Injection"
+summary: "Kernels LOve Kernel fault Injection"
 authors: []
 tags:
-- Linux Kernel
+- Linux Kernel Programming
 - C
+- Inactive
 
 weight: 0
 categories: []
@@ -47,5 +48,7 @@ slides: ""
 I worked as an intern at Cray, Inc. Summer 2017, doing work on the DataWarp
 project. Of all the kernel modules I created, this one was the most interesting,
 as it allowed you inject faults into a live running kernel from the command
-line. Not just trivial faults either (i.e. returning a bad value), but delays,
+line, with only a single compile-time macro statement placed at the start of
+every function you want to be able to inject one or more faults into. Not just
+trivial faults either (i.e. returning a bad value), but delays,
 probabilistic injections, and more.
