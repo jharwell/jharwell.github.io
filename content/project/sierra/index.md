@@ -85,14 +85,15 @@ Automated pipeline currently contains:
 
 It has been used in many of my research projects:
 
--  [FORDYCA]({{<ref "project/fordyca">}}) 
--  [PRISM]({{<ref "project/prism">}}) 
+-  [FORDYCA]({{<ref "project/fordyca">}})
+-  [PRISM]({{<ref "project/prism">}})
 
 and publications:
 
--  [IJCAI2019]({{<ref "publication/harwell-2019-a">}}) 
--  [AAMAS2020]({{<ref "publication/harwell-2020-a">}}) 
--  [TRO2021]({{<ref "publication/harwell-2020-c">}}) 
+-  [IJCAI2019]({{<ref "publication/harwell-2019-a">}})
+-  [AAMAS2020]({{<ref "publication/harwell-2020-a">}})
+-  [TRO2021]({{<ref "publication/harwell-2021-a">}})
+-  [AURO2021]({{<ref "publication/harwell-2021-b">}})
 
 
 To get started, check out the [docs](https://swarm-robotics-sierra.readthedocs.io/en/latest).

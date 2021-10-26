@@ -68,7 +68,7 @@ as a testbed:
   self-organization, flexibility, and robustness--can these properties be
   quantitatively measured (as opposed to just observed) ? Short answer: _yes_,
   long answer: [IJCAI2019]({{<ref "publication/harwell-2019-a">}}),
-  [TRO2021]({{<ref "publication/harwell-2020-c">}}).
+  [TRO2021]({{<ref "publication/harwell-2021-a">}}).
 
 - In environments not specifically designed to be amenable to using caches, can
   dynamic caches (those which are placed dynamically by robots, and can be
@@ -84,6 +84,11 @@ as a testbed:
   overall task, etc.), does the same demonstrate more emergent intelligence than
   if you only give it a few ways to accomplish the same task ?  Short answer:
   _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a">}}).
+
+- Can swarms exhibiting emergent collective behaviors (which are inherently
+  non-linear) be modeled using linear models, which are often much simpler and
+  easier to understand that non-linear models of the same behavior? Short
+  answer: _yes_, long answer [AURO2021]({{<ref "publication/harwell-2021-b">}}).
 
 This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
 experiments and processing results.

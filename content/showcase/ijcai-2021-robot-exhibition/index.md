@@ -191,7 +191,7 @@ large.
     <summary>Full SIERRA command</summary>
 
     ```
-    python3 main.py \
+    sierra-cli \
     --sierra-root=$HOME/exp\
     --template-input-file=$HOME/git/sierra/templates/2021-ijcai-demo.argos \
     --project=fordyca\
@@ -212,7 +212,7 @@ large.
     <summary>Updated SIERRA command</summary>
 
     ```
-    python3 main.py \
+    sierra-cli \
     --sierra-root=$HOME/exp\
     --template-input-file=$HOME/git/sierra/templates/2021-ijcai-demo.argos \
     --project=fordyca\
@@ -238,7 +238,7 @@ large.
     <summary>Updated SIERRA command</summary>
 
     ```
-    python3 main.py \
+    sierra-cli \
     --sierra-root=$HOME/exp\
     --template-input-file=$HOME/git/sierra/templates/2021-ijcai-demo.argos \
     --project=fordyca\
