@@ -41,9 +41,10 @@ links:
 #   name: 'FORDYCA Docs'
 
 slides: ""
+toc: true
 ---
 
-# Overview
+# Summary
 
 This page contains:
 
@@ -58,8 +59,6 @@ This page contains:
   [SIERRA]({{<ref "project/sierra">}}) framework to automate generating
   experiment inputs, running experiments, and processing results to generate
   camera-ready graphs and/or videos.
-
-{{< toc >}}
 
 # Environment: ARGoS simulator
 [ARGoS](http://www.argos-sim.info/index.php) is a very powerful robotics
@@ -84,12 +83,12 @@ in which the overall foraging task can be broken down (decomposed) into smaller
 subtasks, and a STOCHM robot has most recently executed the _Collector_ task,
 then the robot could choose the Generalist, Harvester, or Collector tasks next.
 
-{{< figure  src="tdgraph-foraging.png" title="Task decomposition graph in foraging" width="50%">}}
+{{< figure  library="true" src="tdgraph-foraging.png" title="Task decomposition graph in foraging" width="50%">}}
 
 
 The below videos illustrate the performance of each of the above algorithms
 visually. All videos were recorded with [SIERRA]({{<ref "project/sierra">}})
-using only the `--argos-rendering` option. Objects to be collected are
+using only the `--platform-rendering` option. Objects to be collected are
 represented as black squares, and the nest is a light gray with yellow lights
 above it which robots use for phototaxis. As soon as an object is dropped in the
 nest, it is re-distributed in the arena so that the overall number of objects
@@ -254,7 +253,7 @@ large.
 
   </details>
 
-{{< video library="true" class="aligncenter" src="showcase/sierra/zoom_0.mp4" controls="yes" >}}
+{{< video library="true" class="aligncenter" src="showcase/2021-ijcai-sierra-demo.mp4" controls="yes" >}}
 
 ## Generating videos from simulations .csv files
 In the below videos, I show examples of rendering two dimensional .csv files

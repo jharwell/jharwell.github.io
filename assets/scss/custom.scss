@@ -9,3 +9,11 @@ video {
     center: center;
     display: inline-block;
 }
+#TableOfContents, .docs-toc-title {
+    border-left: 1px solid $sta-primary;
+    width: 500px;
+    /* "$sta-primary" is the primary colour from the theme (sass/scss) */
+}
+html {
+    scroll-behavior: smooth;
+}
