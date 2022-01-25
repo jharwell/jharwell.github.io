@@ -240,3 +240,16 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 nav[data-toggle='toc'] .nav > .active > ul {
   display: block;
 }
+figure.floatright {
+    max-width: 30%;
+    width: auto\9*0.3; /* ie8 */
+    height: auto;
+    float: right;
+}
+
+figure.floatleft {
+    max-width: 30%;
+    width: auto\9*0.3; /* ie8 */
+    height: auto;
+    float: left;
+}

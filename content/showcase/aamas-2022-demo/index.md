@@ -80,7 +80,7 @@ SIERRA was invoked on.
 
 Experiments using the scientific method have an independent variable whose
 impact on results are measured through a series of trials. SIERRA allows you to
-express this as a research query on the command line, and then parses your query
+express this as a research query on the command line and then parses your query
 to make changes to a template input file to generate launch commands and
 experimental inputs to operationalize it. Switching from targeting platform A
 (e.g., ARGoS) to platform B (e.g., ROS+Gazebo) is as easy as changing a a single
@@ -95,7 +95,7 @@ SIERRA currently supports two types of execution environments: simulators and
 real robots, which are handled seamlessly with GNU parallel. For simulators,
 SIERRA will run multiple experimental runs (simulations) from each experiment in
 parallel (exact concurrency dependent on the limits of the computing hardware
-and the nature of the experiment). For real robots, SIERRA will execution 1
+and the nature of the experiment). For real robots, SIERRA will execute one
 experimental run at a time, per configuration (runs can have different
 configuration/# of robots).
 
@@ -121,7 +121,7 @@ To add additional execution environments, see the
 SIERRA supports a number of data formats which simulations/real robot
 experiments can output their data (e.g., the number of robots engaged in a given
 task over time) for processing. SIERRA can generate various statistics from the
-results such as confidence intervals on observed behavior.
+results, such as confidence intervals on observed behavior.
 
 ## 4. Generating deliverables
 
@@ -132,18 +132,69 @@ simplifying reproduction of previous results if you need to tweak a given graph
 
    - Camera-ready linegraphs, heatmaps, 3D surfaces, and scatterplots directly
      from averaged/statistically processed experimental data using matplotlib.
+
    - Videos built from frames captured during simulation or real robot
      operation.
+
    - Videos built from captured experimental output .csv files.
+
+   - SIERRA has rich support for running arbitrary models against experimental
+     data (or stand-alone) to generate predictions and plotting the results
+     together.
+
+Some examples are below.
+
+### Image plots
+
+| Heatmaps from output .csv files | Linegraphs from output .csv files |
+| ------------------------------- | --------------------------------- |
+| {{<figure library="true" src="showcase/block-acq-locs2D-HM.png" caption="Average block pickup locations for a foraging task. This demonstrates data processing during stage 3 (averaging) and automatic plotting of results according to configuration during stage 4." width="40%">}} |{{<figure library="true" src="showcase/cc-pm-scalability-norm-2020journalsc1-RN.96x96+population_size.Log2048.png" caption="Scalability of different algorithms engaged on a foraging task."width="50%">}} |
+| {{<figure library="true" src="showcase/pm-blocks-transported-cum.png" caption="Measurement of swarm performance on a foraging task along two different axes for a single controller. This demonstrates SIERRA's ability to handle multiple independent variables during experiment generation, execution, and results processing." width="50%">}}| {{<figure library="true" src="showcase/cc-PM-ss-raw-2021trosc2-PL.16x16x2+block_motion_dynamics.C4.F25p0.RW0p001+population_constant_density.5p0.I16.C8_0.png" caption="Measurement of raw swarm performance across several controllers within the same foraging scenario. This demonstrates SIERRA's ability automatically calculate and place statistical measures such as confidence intervals, boxplots, etc., on linegraphs automatically." width="50%" >}}
+
+
+### Videos from from output .csv files
+
+In the below videos, we show demonstrate rendering two-dimensional .csv files
+from simulation outputs into images which are then stitched together into
+videos. This can be useful to observe how the spatial distribution of different
+aspects of robot behaviors (e.g., robot occupancy, inter-robot interference,
+task execution location, etc.)  change over time. Videos are built from .csv
+files rendered into images using matplotlib.
+
+{{< video library="true" src="showcase/stochm/block-acq-explore-locs2D.mp4" width="500px">}}
+{{< video library="true" class="alignleft" src="showcase/crw/block-acq-explore-locs2D.mp4" width=50px >}}
+
+### Videos from captured simulation visual frames
+
+ARGoS video of 16,000 robots swarming. This demonstrates capturing of visual
+simulation information and stitching together images into videos.
+
+{{< video library="true" class="floatright" src="showcase/RN-800x800.mp4" >}}
+
+ARGoS videos of robots performing foraging. This demonstrates SIERRA's
+utilization of multiple ARGoS cameras+interpolation (`--camera-config`) between
+them to create nice videos. Colored lines indicate the virtual "forces" acting
+on robots: motion towards light, collision avoidance, etc. (not part of SIERRA).
+
+{{< video library="true" class="floatright" src="showcase/crw/SS12x6.mp4" width="40%">}}
+{{< video library="true" class="floatright" src="showcase/dpo/SS12x6.mp4" width="40%">}}
+
+
 
 ## 5. Controller/scenario comparison
 
-SIERRA can take pieces from graphs generated in stage 4 and put them on a single
-graph to generate camera ready comparison graphs. It can generate comparison
-graphs for:
+SIERRA can take pieces from graphs generated in stage 4 (e.g., individual
+lines)and put them on a single graph to generate camera ready comparison
+graphs. It can generate comparison graphs for:
 
 - Different robot controllers which have all been run in the same scenario.
 - A single robot controller which has been run in multiple scenarios.
+
+Some examples are below.
+
+| Combined Heatmaps | Combined Linegraphs |
+| ----------------- | ------------------- |
+| {{<figure library="true" src="showcase/cc-pm-blocks-transported-cum-DS.36x18.png" caption="Two heatmaps generated from two different controllers during stage 4 placed on the same plot (different colorbars). This demonstrates SIERRA's ability to combine stage4 outputs generated from multiple independent variables." class="left" width="80%" >}}| {{< figure library="true" src="showcase/sc-N_h-d0.CRW.png" caption="Predictions vs. empirical data for a given aspect of swarm foraging behavior across scenarios. This demonstrates: (1) Combining parts of multiple stage 4 graphs together onto a single plot (1) plotting multiple auto-generated .csvs together onto a single graph (one for averaged empirical data, one for model predictions), (2) automatically running user-specified models against processed data. Note also SIERRA's placement of confidence intervals around empirical data (this can be disabled if desired)." width="40%">}} |
 
 # SIERRA Platform Support
 
@@ -163,10 +214,11 @@ To define additional platforms, see the
 
 # SIERRA Demonstration Context
 
-To demonstrate the capabilities of SIERRA, we will use a foraging (object
-gathering) task. The video below should give you some idea of how a system of N
-foraging robots might perform on a foraging task. This video was automatically
-generated by SIERRA using captured ARGoS frames.
+To demonstrate the capabilities of SIERRA by performing a mini-investigation, we
+will use a foraging (object gathering) task. The video below should give you
+some idea of how a system of N foraging robots might perform on a foraging
+task. This video was automatically generated by SIERRA using captured ARGoS
+frames.
 
 {{< video library="true" autoplay="true" loop="true" class="aligncenter" src="showcase/crw/2021-tro-sc1_0_output.mp4" width=50px >}}
 
@@ -180,7 +232,7 @@ the generation of experiments to answer this question for a variety of platforms
 The user (1) defines an arbitrary cmdline syntax to express a class of research
 questions (a `--batch-criteria`), (2) defines changes, additions, or removals
 to/from a template input XML file based on the specific instance of the query,
-and SIERRA does the rest. For example, if we define
+and (3) SIERRA does the rest. For example, if we define
 `population_size.{increment_type}{N}` to answer queries similar to the one posed
 above, we can then pass `population_size.Linear10` to direct SIERRA to generate
 10 experiments with different system sizes 1...10. How to change the system size
@@ -192,17 +244,19 @@ which case we only need to run each experiment once. However, for many
 applications, there is some aspect of non-determinism (e.g., noise from real
 robot sensors/actuators), in which case we need to run each experiment multiple
 times. SIERRA handles this cleanly as well through the `--n-runs` option. Each
-experimental run is given its own random seed (which is not overwritten if
-experiments are regenerated, unless forced via `--no-preserve-seeds`, for
-maximum repreducibility).
+experimental run is given its own random seed (which, for maximum
+reproducibility is not overwritten if experiments are regenerated, unless forced
+via `--no-preserve-seeds`).
 
 ## Example Template Input Files
 
 > Note: the below are partial template input files to demonstrate SIERRA's
-> capabilities, and are not (probably) functional as is with ARGoS or ROS.
+> capabilities, and are not likely functional as-is with ARGoS or ROS.
 
-The ARGoS `ideal.argos` is based on the ARGoS foraging example here. The
-ROS+Gazebo and ROS+Turtlebot3 `turtlebot3_sim.launch` is based on XXX.
+The ARGoS `ideal.argos` is based on the ARGoS foraging example
+[here](https://www.argos-sim.info/examples.php). The ROS+Gazebo and
+ROS+Turtlebot3 `turtlebot3_sim.launch` is based on the ROBOTIS Gazebo example
+[here](https://github.com/ROBOTIS-GIT/turtlebot3_simulations).
 
 <details> <summary>ARGoS (ideal.argos)</summary>
 
@@ -402,7 +456,7 @@ Using the following SIERRA command with the above template:
         --batch-criteria population_size.Linear10 \
         --with-robot-leds
 
-We obtain the following for experiment 0 (1 robot):
+We obtain the following for experiment 0 (which has 1 robot):
 
 <details>
      <summary>Experiment 0 (from ideal.argos)</summary>
@@ -548,7 +602,7 @@ We obtain the following for experiment 0 (1 robot):
   also draw them randomly from the specified scenario dimensions (`10x10`
   here).
 
-- Since Gazebo+ROS don't have a way to say "Stop running after this long",
+- Since Gazebo+ROS doesn't have a way to say "Stop running after this long",
   SIERRA inserts a timekeeper node to provide this functionality.
 
 - SIERRA can utilize the ROS parameter server when making changes to the
@@ -606,9 +660,22 @@ We obtain the following for experiment 0 (1 robot):
 - If needed, IP addresses of machines/robots can be provided to SIERRA via
   `--nodefile` on an environment variable.
 
+# Demonstration: Experiment Results Processing (stage 3)
+
+As seen in the examples above, one of the things that SIERRA can do in stage 3
+is take .csv files like the one output below, and transform them into .png files
+to be stitched together into videos in stage 4. A .csv - .png pair is shown
+below.
+
+## Raw .csv from outputs
+{{% include "./static/media/showcase/crw/block-acq-explore-locs2D_0000001000.md" %}}
+
+## "Imagized" .csv
+{{<figure library="true" src="showcase/crw/block-acq-explore-locs2D_0000001000.png" caption="The result of rendering the .csv above into a .png" width="40%">}} |
+
 # Demonstration: Experimental Results Visualization (stage 4)
 
-{{< video library="true" class="aligncenter" src="showcase/sierra/zoom_0.mp4" controls="yes" >}}
+{{< video library="true" class="aligncenter" src="showcase/2022-aamas-sierra-demo.mp4" controls="yes" >}}
 
 ## Exploring Independent Variables
 
@@ -677,24 +744,3 @@ We obtain the following for experiment 0 (1 robot):
             --n-sims=16
 
   </details>
-
-
-## Generating Videos From Simulation .csv Files
-
-In the below videos, we show examples of rendering two dimensional .csv files
-from simulation outputs into images which are then stitched together into videos
-using SIERRA. This can be useful to observe how the spatial distribution of
-different aspects of robot behaviors (e.g., robot occupancy, inter-robot
-interference, task execution location, etc.)  change over time. Videos are built
-from .csv files rendered into images using matplotlib.
-
-
-CRW swarm exploration spatial distribution (i.e., a robot occupancy probability
-distribution for robots currently search for objects, as opposed to carrying
-them back to the nest), shown as a 2D heatmap which evolves over time. As the
-probability that a robot will be at a given X,Y location changes over time, the
-color of the heatmap changes as well. Notice how the swarm quickly convergences
-to a steady-state distribution.
-
-
-{{< video library="true" controls="yes" class="alignleft" src="showcase/crw/block-acq-explore-locs2D.mp4" width=50px >}}
