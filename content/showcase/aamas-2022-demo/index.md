@@ -671,11 +671,11 @@ below.
 {{% include "./static/media/showcase/crw/block-acq-explore-locs2D_0000001000.md" %}}
 
 ## "Imagized" .csv
-{{<figure library="true" src="showcase/crw/block-acq-explore-locs2D_0000001000.png" caption="The result of rendering the .csv above into a .png" width="40%">}} |
+{{<figure library="true" src="showcase/crw/block-acq-explore-locs2D_0000001000.png" caption="The result of rendering the .csv above into a .png" width="40%">}}
 
 # Demonstration: Experimental Results Visualization (stage 4)
 
-{{< video library="true" class="aligncenter" src="showcase/2022-aamas-sierra-demo.mp4" controls="yes" >}}
+{{< video library="true" class="aligncenter" src="showcase/2022-aamas-sierra-demo.mp4" controls="yes">}}
 
 ## Exploring Independent Variables
 
