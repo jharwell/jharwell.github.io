@@ -97,5 +97,3 @@ such as autonomous construction, mining, and space exploration.
 My areas of expertise include: swarm intelligence, swarm robotics, mathematical
 modeling of multi-agent systems, algorithm design, data structures, software
 engineering, real-time embedded systems, and high performance computing.
-
-{{< calendly calendar="john-r-harwell" type="popupWidget"/>}}

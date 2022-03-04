@@ -50,6 +50,10 @@ subtitle = ""
      tag = "ARGoS"
 
     [[content.filter_button]]
+     name = "Projects Using ROS"
+     tag = "ROS"
+
+    [[content.filter_button]]
      name = "All"
      tag = "*"
 

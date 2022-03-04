@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "PRISM"
-summary: "Phased Robotic ISomorphic graph Manipulation CAches"
+summary: "Phased Robotic ISomorphic graph Manipulation"
 
 authors: []
 tags:

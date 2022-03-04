@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "CYGNSS"
-summary: "CYClone Global Navigation Satellite System"
+summary: "CYclone Global Navigation Satellite System"
 authors: []
 tags:
 - C

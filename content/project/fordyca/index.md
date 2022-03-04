@@ -10,6 +10,7 @@ tags:
 - Task Allocation
 - C++
 - ARGoS
+- ROS
 - Foraging
 - Active
 
@@ -88,8 +89,8 @@ as a testbed:
 - Can swarms exhibiting emergent collective behaviors (which are inherently
   non-linear) be modeled using linear models, which are often much simpler and
   easier to understand that non-linear models of the same behavior? Short
-  answer: _yes_, long answer [AURO2021]({{<ref
-  "publication/harwell-2021-b-ODE">}}).
+  answer: _yes_, long answer [AURO2022]({{<ref
+  "publication/harwell-2022-a-ODE">}}).
 
 This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
 experiments and processing results.

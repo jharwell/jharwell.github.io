@@ -16,6 +16,16 @@ weight: 1
 categories: []
 date: 2022-01-22T
 
+tags:
+- Research Automation
+- ARGoS
+- ROS
+- Turtlebot3
+- Active
+
+aliases:
+- /projects/sierra/
+
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://github.com/swarm-robotics/sierra.git"
 
@@ -43,10 +53,12 @@ links:
 
 slides: ""
 toc: true
-menu: aamas-2022-demo
 ---
 
 # Summary
+
+A more detailed explanation of the SIERRA framework presented in
+[AAMAS2022]({{<ref "publication/harwell-2022-b-SIERRA">}}).
 
 This page contains:
 
@@ -57,22 +69,18 @@ This page contains:
 
   - [ARGoS](http://www.argos-sim.info/index.php)
 
-  - [ROS+Gazebo]
+  - [ROS+Gazebo] (i.e., using [ROS](https://ros.org) with
+    [Gazebo](http://gazebosim.org))
 
-  - [ROS+Turtlebot3]
+  - [ROS+Turtlebot3] (i.e., using [ROS](https://ros.org) with the
+    [Turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/))
 
 - A demonstration of SIERRA's ability to visualize simulation results.
 
 
 # SIERRA Architecture
 
-{{< figure  library="true" src="sierra-architecture.png" title="SIERRA Architecture" width="80%">}}
-
-Architecture of SIERRA,organized by pipeline stage. Pipeline stages are listed
-left to right, and an approximate joint architectural/functional stack is top to
-bottom for each stage. “... ” indicates areas where SIERRA is designed via
-python plugins to be easily extensible. “Host machine” indicates the machine
-SIERRA was invoked on.
+{{< figure library="true" src="sierra-architecture.png" width="80%" caption="Architecture of SIERRA,organized by pipeline stage. Pipeline stages are listed left to right, and an approximate joint architectural/functional stack is top to bottom for each stage. '...' indicates areas where SIERRA is designed via python plugins to be easily extensible. 'Host machine' indicates the machine SIERRA was invoked on." >}}
 
 # SIERRA Research Automation
 
@@ -744,3 +752,17 @@ below.
             --n-sims=16
 
   </details>
+
+# SIERRA In The Wild
+
+SIERRA has been used in many of my research projects:
+
+-  [FORDYCA]({{<ref "project/fordyca">}})
+-  [PRISM]({{<ref "project/prism">}})
+
+And publications:
+
+-  [IJCAI2019]({{<ref "publication/harwell-2019-a-metrics">}})
+-  [AAMAS2020]({{<ref "publication/harwell-2020-a-demystify">}})
+-  [TRO2021]({{<ref "publication/harwell-2021-a-metrics">}})
+-  [AURO2022]({{<ref "publication/harwell-2022-a-ODE">}})

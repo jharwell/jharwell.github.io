@@ -66,7 +66,7 @@ math = true
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
-diagram = false
+diagram = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
@@ -107,7 +107,7 @@ directions = "Enter Building and look for Lab 160"
 office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "" #"https://calendly.com"
+appointment_url = "https://calendly.com/john-r-harwell"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
