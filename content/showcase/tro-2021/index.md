@@ -47,16 +47,17 @@ toc: true
 # Overview
 
 This page provides supplementary material for the [TRO 2021]({{<ref
-"publication/harwell-2021-a" >}}) paper. The foraging algorithms
-shown on this page are:
+"publication/harwell-2021-a-metrics" >}}) paper. The foraging algorithms shown
+on this page are:
 
 - CRW
 - DPO
 - STOCHM
 - STOCHX
 
-See [AAMAS 2020]({{<ref "publication/harwell-2020-a" >}}),[TRO 2021]({{<ref
-"publication/harwell-2021-a" >}}) for technical explanations of the algorithms.
+See [AAMAS 2020]({{<ref "publication/harwell-2020-a-demystify" >}}),[TRO
+2021]({{<ref "publication/harwell-2021-a-metrics" >}}) for technical
+explanations of the algorithms.
 
 All videos were recorded/generated using [SIERRA]({{<ref
 "project/sierra">}}). All videos are 5,000 seconds of simulated time long.

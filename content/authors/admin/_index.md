@@ -12,7 +12,6 @@ role: PhD Candidate
 organizations:
 - name: University of Minnesota
   url: https://www.umn.edu
-
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include swarm robotics, emergent behavior, and mathematical modeling.
 
@@ -72,7 +71,7 @@ social:
 email: ""
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -98,3 +97,5 @@ such as autonomous construction, mining, and space exploration.
 My areas of expertise include: swarm intelligence, swarm robotics, mathematical
 modeling of multi-agent systems, algorithm design, data structures, software
 engineering, real-time embedded systems, and high performance computing.
+
+{{< calendly calendar="john-r-harwell" type="popupWidget"/>}}

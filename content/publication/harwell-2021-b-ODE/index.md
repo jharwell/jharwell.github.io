@@ -35,7 +35,7 @@ image:
 projects: [fordyca]
 publishDate: '2021-10-26T13:15:36.767268Z'
 publication_types:
-- '5'
+- '3'
 abstract: 'We study the limits of linear modeling of swarm
 behavior by characterizing the inflection point beyond which
 linear models of swarm collective behavior break down. The

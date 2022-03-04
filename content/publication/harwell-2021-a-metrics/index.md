@@ -35,7 +35,7 @@ image:
 projects: ['fordyca']
 publishDate: '2021-01-07T17:08:34.824205Z'
 publication_types:
-- '5'
+- '3'
 abstract: 'When designing swarm-robotic systems, systematic
 comparison of swarm control algorithms is necessary to de-
 termine which can scale up to handle the target problem size

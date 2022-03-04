@@ -62,19 +62,19 @@ as a testbed:
   (temporal pickup/drop sites), such as flat, open spaces, can static caches
   (those at a predetermined location maintained by an outside process) still be
   used to increase performance? Short answer: _yes_, long answer:
-  [SIMPAR2018]({{<ref "publication/harwell-2018">}}).
+  [SIMPAR2018]({{<ref "publication/harwell-2018-partitioning">}}).
 
 - Swarms have many desirable properties, such as scalability, emergent
   self-organization, flexibility, and robustness--can these properties be
   quantitatively measured (as opposed to just observed) ? Short answer: _yes_,
-  long answer: [IJCAI2019]({{<ref "publication/harwell-2019-a">}}),
-  [TRO2021]({{<ref "publication/harwell-2021-a">}}).
+  long answer: [IJCAI2019]({{<ref "publication/harwell-2019-a-metrics">}}),
+  [TRO2021]({{<ref "publication/harwell-2021-a-metrics">}}).
 
 - In environments not specifically designed to be amenable to using caches, can
   dynamic caches (those which are placed dynamically by robots, and can be
   created/depleted over time as conditions evolve) be used to improve overall
   efficiency?  Short answer: _yes_, long answer: [AAMAS2020]({{<ref
-  "publication/harwell-2020-a">}}).
+  "publication/harwell-2020-a-demystify">}}).
 
 - Is the "connectedness" of a set of interdependent tasks (i.e., which tasks are
   dependencies for multiple other tasks) specifying various parts of an overall
@@ -83,12 +83,13 @@ as a testbed:
   the overall task, two halves of the overall task, four 1/4 chunks of the
   overall task, etc.), does the same demonstrate more emergent intelligence than
   if you only give it a few ways to accomplish the same task ?  Short answer:
-  _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a">}}).
+  _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a-demystify">}}).
 
 - Can swarms exhibiting emergent collective behaviors (which are inherently
   non-linear) be modeled using linear models, which are often much simpler and
   easier to understand that non-linear models of the same behavior? Short
-  answer: _yes_, long answer [AURO2021]({{<ref "publication/harwell-2021-b">}}).
+  answer: _yes_, long answer [AURO2021]({{<ref
+  "publication/harwell-2021-b-ODE">}}).
 
 This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
 experiments and processing results.

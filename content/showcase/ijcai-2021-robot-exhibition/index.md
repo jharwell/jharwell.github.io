@@ -49,11 +49,12 @@ toc: true
 This page contains:
 
 - Pre-recorded videos visually demonstrating the foraging algorithms from some
-  of my recent papers: [IJCAI 2019]({{<ref "publication/harwell-2019-a" >}}),
-  [AAMAS 2020]({{<ref "publication/harwell-2020-a" >}}). All foraging algorithms
-  are from the open source [FORDYCA]({{<ref "project/fordyca" >}}) project. In
-  a foraging task, robots gather objects distributed in a 3D environment in
-  various ways under different constraints and environmental conditions.
+  of my recent papers: [IJCAI 2019]({{<ref "publication/harwell-2019-a-metrics"
+  >}}), [AAMAS 2020]({{<ref "publication/harwell-2020-a-demystify" >}}). All
+  foraging algorithms are from the open source [FORDYCA]({{<ref
+  "project/fordyca" >}}) project. In a foraging task, robots gather objects
+  distributed in a 3D environment in various ways under different constraints
+  and environmental conditions.
 
 - A "live" recorded video demonstrating cmdline usage of the awesome
   [SIERRA]({{<ref "project/sierra">}}) framework to automate generating
@@ -75,13 +76,14 @@ desktop:
 
 For the STOCHM and STOCHX algorithms presented below, robots stochastically
 allocate tasks using the STOCH-N1 algorithm ([AAMAS 2020]({{<ref
-"publication/harwell-2020-a" >}})), a stochastic choice depending on the
-location of the most recently executed task within the graph of tasks available
-to each robot (a neighborhood of size 1). For example, if the available tasks
-form a [task decomposition graph](#figure-task-decomposition-graph-in-foraging)
-in which the overall foraging task can be broken down (decomposed) into smaller
-subtasks, and a STOCHM robot has most recently executed the _Collector_ task,
-then the robot could choose the Generalist, Harvester, or Collector tasks next.
+"publication/harwell-2020-a-demystify" >}})), a stochastic choice depending on
+the location of the most recently executed task within the graph of tasks
+available to each robot (a neighborhood of size 1). For example, if the
+available tasks form a [task decomposition
+graph](#figure-task-decomposition-graph-in-foraging) in which the overall
+foraging task can be broken down (decomposed) into smaller subtasks, and a
+STOCHM robot has most recently executed the _Collector_ task, then the robot
+could choose the Generalist, Harvester, or Collector tasks next.
 
 {{< figure  library="true" src="tdgraph-foraging.png" title="Task decomposition graph in foraging" width="50%">}}
 

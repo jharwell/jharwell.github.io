@@ -31,7 +31,7 @@ image:
 projects: [fordyca]
 publishDate: '2021-10-12T21:45:15.493701Z'
 publication_types:
-- '5'
+- '3'
 abstract: ''
 publication: '*arXiv:1906.01957 [cs.MA]*'
 links:
