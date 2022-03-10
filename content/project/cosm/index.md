@@ -7,6 +7,7 @@ authors: []
 tags:
 - C++
 - ARGoS
+- ROS
 - Task Allocation
 - Hardware Abstraction
 - Platform Abstraction

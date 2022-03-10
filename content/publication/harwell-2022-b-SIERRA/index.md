@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'SIERRA: A Modular Framework for Research Automation'
+title: 'SIERRA: A Modular Framework for Research Automation (paper)'
 subtitle: ''
 summary: ''
 authors:
@@ -59,10 +59,10 @@ abstract: "Modern intelligent systems researchers employ the scientific method: 
   researchers, thereby eliminating manual experiment configuration and result
   processing via throw-away scripts."
 
-publication: '*Proceedings of the 21th International Conference on Autonomous Agents
-  and MultiAgent Systems*'
+#publication: '*Proceedings of the 21th International Conference on Autonomous Agents
+#  and MultiAgent Systems*'
 
 links:
 - name: PDF
-  url: http://ifaamas.org/Proceedings/aamas2022/pdfs/pXXX.pdf
+  url: http://arxiv.org/abs/2203.04748
 ---

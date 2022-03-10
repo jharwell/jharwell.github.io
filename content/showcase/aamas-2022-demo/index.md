@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "SIERRA: A Modular Framework For Research Automation"
+title: "SIERRA: A Modular Framework For Research Automation (details and demo)"
 summary: "
 An overview of the architecture of SIERRA and how it can be used to automate
 research driven by the scientific method generally, and agent research
