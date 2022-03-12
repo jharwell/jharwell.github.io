@@ -59,7 +59,7 @@ social:
 
 - icon: cv
   icon_pack: ai
-  link: media/cv.pdf
+  link: media/cv-full-v22.pdf
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -86,13 +86,20 @@ Minnesota, under the direction of Dr. Maria Gini, my advisor. My research
 interests lie broadly in the investigation of emergent behavior in large
 interacting multi-agent systems, at the intersection of task allocation,
 mathematical modeling, swarm robotics, and swarm intelligence.  I'm interested
-in two main areas. First, understanding the fundamental principles of large
-swarms, including the "unpredictable" behaviors which emerge as such complex
-systems interact with their environments in non-trivial ways, to develop better
-models of collective behavior. Second, developing mathematical models for
-predictive control of large-scale multi-agent robotic systems to create
-programmable robot swarms for applications in dangerous or unstable environments
-such as autonomous construction, mining, and space exploration.
+in two main areas:
+
+- Understanding the fundamental principles of large swarms, including the
+  "unpredictable" behaviors which emerge as such complex systems interact with
+  their environments in non-trivial ways, to develop better models of collective
+  behavior.
+
+- Developing mathematical models for predictive control of large-scale
+  multi-agent robotic systems from first principles which are robust enough to
+  cross the simulation-reality gap.  Of particular interest are applications in
+  dangerous or unstable environments (e.g., mining, space exploration), or
+  dynamic environments (i.e., those which are modified by the swarm as it
+  operates), such as agriculture, autonomous construction, debris/waste
+  removal.
 
 My areas of expertise include: swarm intelligence, swarm robotics, mathematical
 modeling of multi-agent systems, algorithm design, data structures, software

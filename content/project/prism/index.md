@@ -63,5 +63,5 @@ In this project, I have investigated the following questions:
   provably guaranteed to reach a final graph state, even though the sequence of
   actions to reach the final state is not specified in advance?
 
-This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
+This project relies heavily on [SIERRA](project/sierra) for running
 experiments and processing results.

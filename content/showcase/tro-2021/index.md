@@ -59,8 +59,8 @@ See [AAMAS 2020]({{<ref "publication/harwell-2020-a-demystify" >}}),[TRO
 2021]({{<ref "publication/harwell-2021-a-metrics" >}}) for technical
 explanations of the algorithms.
 
-All videos were recorded/generated using [SIERRA]({{<ref
-"project/sierra">}}). All videos are 5,000 seconds of simulated time long.
+All videos were recorded/generated using [SIERRA](project/sierra). All videos
+are 5,000 seconds of simulated time long.
 
 Blocks to be collected are represented as black squares,
 and the nest is a light gray with yellow lights above it which robots use for
