@@ -10,6 +10,7 @@ authors:
 - Maria Gini
 tags:
 - Foraging
+- Graph Theory
 
 categories: []
 date: '2021-01-01'
@@ -34,9 +35,19 @@ projects: [fordyca]
 publishDate: '2021-10-13T19:10:52.394859Z'
 publication_types:
 - '1'
-abstract: ''
+abstract: "The exploration time for a swarm of robots doing object gathering
+     depends on the specific task, environment, number of objects, and number of
+     robots. Hence, it is important to understand how different properties
+     affect the exploration time. To address this practical challenge, we
+     present a theoretical analysis of the expected exploration time for a swarm
+     of robots that are searching for objects in an arena and present
+     experimental results obtained with different swarm sizes. The experimental
+     results are consistent with the theoretical analysis."
 
 publication: '*Proceedings of the 16th International Conference on Intelligent Autonomous
   Systems (IAS-16)*'
 
+links:
+- name: PDF
+  url: https://link.springer.com/content/pdf/10.1007/978-3-030-95892-3_34.pdf
 ---
