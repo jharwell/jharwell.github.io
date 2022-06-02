@@ -55,7 +55,11 @@ toc: true
 # Summary
 
 A more detailed explanation of the SIERRA framework presented in
-[AAMAS2022]({{<ref "publication/harwell-2022-b-SIERRA">}}).
+[AAMAS2022]({{<ref "publication/harwell-2022-a-SIERRA">}}).
+
+Note: The version of SIERRA demonstrated here is older than the current SIERRA
+version--see the [docs](https://swarm-robotics-sierra.readthedocs.io/en/latest)
+for the latest overview.
 
 This page contains:
 
@@ -762,4 +766,4 @@ And publications:
 -  [IJCAI2019]({{<ref "publication/harwell-2019-a-metrics">}})
 -  [AAMAS2020]({{<ref "publication/harwell-2020-a-demystify">}})
 -  [TRO2021]({{<ref "publication/harwell-2021-a-metrics">}})
--  [AURO2022]({{<ref "publication/harwell-2022-a-ODE">}})
+-  [AURO2022]({{<ref "publication/harwell-2022-b-ODE">}})

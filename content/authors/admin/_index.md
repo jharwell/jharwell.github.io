@@ -6,7 +6,7 @@ title: John Harwell
 superuser: true
 
 # Role/position
-role: PhD Candidate
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -26,7 +26,7 @@ education:
   courses:
   - course: PhD in Computer Science
     institution: University of Minnesota
-    year: 2022 (expected)
+    year: 2022
 
   - course: MSc in Computer Science
     institution: University of Minnesota
@@ -59,7 +59,7 @@ social:
 
 - icon: cv
   icon_pack: ai
-  link: media/cv-full-v22.pdf
+  link: media/john-harwell-cv-full-v26.pdf
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -80,7 +80,7 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate at the University of Minnesota, and member of the
+I am a recent PhD graduate at the University of Minnesota, and member of the
 Artificial Intelligence, Robotics, and Vision Laboratory at the University of
 Minnesota, under the direction of Dr. Maria Gini, my advisor. My research
 interests lie broadly in the investigation of emergent behavior in large

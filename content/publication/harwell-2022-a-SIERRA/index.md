@@ -17,8 +17,8 @@ tags:
 - Reproducibility
 
 categories: []
-date: '2022-01-01'
-lastmod: 2022-03-03T19:49:33-06:00
+date: '2022-05-11'
+lastmod: 2022-05-31T19:49:33-06:00
 featured: true
 draft: false
 
@@ -30,6 +30,17 @@ image:
   focal_point: ''
   preview_only: false
 
+links:
+- name: Github
+  url: https://github.com/swarm-robotics/sierra.git
+  icon_pack: fab
+  icon: github
+
+- url: https://swarm-robotics-sierra.readthedocs.io/en/latest
+  icon_pack: fa
+  icon: book
+  name: 'Docs'
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -37,11 +48,12 @@ image:
 #   Otherwise, set `projects = []`.
 projects:
 - fordyca
+- prism
 - sierra
 
 publishDate: '2022-03-04T01:49:32.995082Z'
 publication_types:
-- '3'
+- '1'
 
 abstract: "Modern intelligent systems researchers employ the scientific method: they form
   hypotheses about system behavior, and then run experiments using one or more
@@ -59,10 +71,7 @@ abstract: "Modern intelligent systems researchers employ the scientific method: 
   researchers, thereby eliminating manual experiment configuration and result
   processing via throw-away scripts."
 
-#publication: '*Proceedings of the 21th International Conference on Autonomous Agents
-#  and MultiAgent Systems*'
-
 links:
 - name: PDF
-  url: http://arxiv.org/abs/2203.04748
+  url: https://ifaamas.org/Proceedings/aamas2022/pdfs/p1905.pdf
 ---

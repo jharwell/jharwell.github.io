@@ -54,14 +54,17 @@ url_video: ""
 slides: ""
 ---
 
-In this project, I have investigated the following questions:
+In this project, I have investigated the following research questions, in the
+context of the Parallel Bricklayer Problem (i.e., how to coordinate the efforts
+of multiple independent agents contributing to building a structure to avoid
+deadlocks and maxmimize efficiency):
 
 - Can we model how a large swarm of robots interacts with and manipulates its
   environment in a general way using graph theory? Can we derive a set of
   properties that graphs representing structures which can be constructed or
-  deconstructed by swarms such that from a valid starting graph state the swarm is
-  provably guaranteed to reach a final graph state, even though the sequence of
-  actions to reach the final state is not specified in advance?
+  deconstructed by swarms such that from a valid starting graph state the swarm
+  is provably guaranteed to reach a final graph state, even though the sequence
+  of actions to reach the final state is not specified in advance?
 
 This project relies heavily on [SIERRA](project/sierra) for running
 experiments and processing results.

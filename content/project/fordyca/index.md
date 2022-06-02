@@ -55,9 +55,9 @@ url_video: ""
 slides: ""
 ---
 
-In this project, I have investigated the following research questions, using
-foraging task (i.e. collecting blocks and bringing them to a central location)
-as a testbed:
+In this project, I have investigated the following research questions, in the
+context of the Foraging Problem (i.e., collecting blocks and bringing them to a
+central location):
 
 - In environments not specifically designed to be amenable to using caches
   (temporal pickup/drop sites), such as flat, open spaces, can static caches
@@ -77,20 +77,20 @@ as a testbed:
   efficiency?  Short answer: _yes_, long answer: [AAMAS2020]({{<ref
   "publication/harwell-2020-a-demystify">}}).
 
-- Is the "connectedness" of a set of interdependent tasks (i.e., which tasks are
-  dependencies for multiple other tasks) specifying various parts of an overall
-  foraging task which robots can choose from correlated with intelligence ? That
-  is, if you give a swarm of robots more ways to accomplish the same task (e.g.,
-  the overall task, two halves of the overall task, four 1/4 chunks of the
-  overall task, etc.), does the same demonstrate more emergent intelligence than
-  if you only give it a few ways to accomplish the same task ?  Short answer:
-  _yes_, long answer: [AAMAS2020]({{<ref "publication/harwell-2020-a-demystify">}}).
+- Given swarms are typically made of simple agents, how do they collectively act
+  intelligently? I investigate the effect of having swarms allocate tasks from a
+  relational graph on the overall level of emergent intelligence. Short answer:
+  task allocating swarms learn task _relationships_ (as opposed to task) costs;
+  these effects are more visible on more complex task graphs with more tasks and
+  dependencies between tasks. Long answer: [AAMAS2020]({{<ref
+  "publication/harwell-2020-a-demystify">}}).
 
-- Can swarms exhibiting emergent collective behaviors (which are inherently
-  non-linear) be modeled using linear models, which are often much simpler and
-  easier to understand that non-linear models of the same behavior? Short
-  answer: _yes_, long answer [AURO2022]({{<ref
-  "publication/harwell-2022-a-ODE">}}).
+- Can a Poisson-based model of collective swarm behavior be used to model the
+  behavior of swarms in which robot behaviors are not Poisson distributed? If so
+  , under what conditions? Short answer: _yes_, IF you have a general
+  first-principle model then can do this in a variety of foraging
+  scenarios for both large and small swarms. Long answer: [AURO2022]({{<ref
+  "publication/harwell-2022-b-ODE">}}).
 
 This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
 experiments and processing results.
