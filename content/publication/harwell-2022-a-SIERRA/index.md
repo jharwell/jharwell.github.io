@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'SIERRA: A Modular Framework for Research Automation (paper)'
+title: 'SIERRA: A Modular Framework for Research Automation (Demo paper)'
 subtitle: ''
 summary: ''
 authors:
@@ -36,7 +36,7 @@ links:
   icon_pack: fab
   icon: github
 
-- url: https://swarm-robotics-sierra.readthedocs.io/en/latest
+- url: https://swarm-robotics-sierra.readthedocs.io/en/master
   icon_pack: fa
   icon: book
   name: 'Docs'
@@ -47,8 +47,6 @@ links:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- fordyca
-- prism
 - sierra
 
 publishDate: '2022-03-04T01:49:32.995082Z'

@@ -1,0 +1,81 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
+title: 'SIERRA: A Modular Framework for Research Automation (Journal paper)'
+subtitle: ''
+summary: ''
+authors:
+- John Harwell
+- Maria Gini
+
+tags:
+- Research Automation
+- Robotics
+- FORDYCA
+- PRISM
+- Reusability
+- Artficial Intelligence
+- Reproducibility
+
+categories: []
+date: '2022-08-16'
+lastmod: 2022-08-16T19:49:33-06:00
+featured: true
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+links:
+- name: Github
+  url: https://github.com/swarm-robotics/sierra.git
+  icon_pack: fab
+  icon: github
+
+- url: https://swarm-robotics-sierra.readthedocs.io/en/master
+  icon_pack: fa
+  icon: book
+  name: 'Docs'
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects:
+- sierra
+
+publication_types:
+- '3'
+abstract: 'Modern intelligent systems researchers form hypotheses
+about system behavior and then run experiments using one or more
+independent variables to test their hypotheses. We present SIERRA, a
+novel framework structured around that idea for accelerating research
+development and improving reproducibility of results. SIERRA accel-
+erates research by automating the process of generating executable
+experiments from queries over independent variables(s), executing ex-
+periments, and processing the results to generate deliverables such
+as graphs and videos. It shifts the paradigm for testing hypotheses
+from procedural (“Do these steps to answer the query”) to declarative
+(“Here is the query to test–GO!”), reducing the burden on researchers.
+It employs a modular architecture enabling easy customization and
+extension for the needs of individual researchers, thereby eliminating
+manual configuration and processing via throw-away scripts. SIERRA
+improves reproducibility of research by providing automation indepen-
+dent of the execution environment (HPC hardware, real robots, etc.) and
+targeted platform (arbitrary simulator or real robots). This enables exact
+experiment replication, up to the limit of the execution environment and
+platform, as well as making it easy for researchers to test hypotheses in
+different computational environments.'
+publication: ''
+links:
+- name: 'ArXiv'
+  url: https://arxiv.org/abs/4450760
+  icon: "arxiv"
+  icon_pack: "ai"
+---
