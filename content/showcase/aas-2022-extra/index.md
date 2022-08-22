@@ -73,8 +73,8 @@ Scenario 1 (small warehouse), 32x16 arena with 128 robots:
 
 - CRW (left), DPO (right)
 
-  {{< video library="true" autoplay="true" loop="true" class="aligncenter" src="showcase/crw/2021-tro-sc1_0_output.mp4" width=50px >}}
-  {{< video library="true" autoplay="true" loop="true" class="aligncenter" src="showcase/dpo/2021-tro-sc1_0_output.mp4" width=50px >}}
+  {{< video src="showcase/crw/2021-tro-sc1_0_output.mp4" width=50px >}}
+  {{< video src="showcase/dpo/2021-tro-sc1_0_output.mp4" width=50px >}}
 
 - STOCHM (left), STOCHX (right)
 
@@ -90,8 +90,8 @@ Scenario 1 (small warehouse), 32x16 arena with single source block distribution,
   - CRW: spatial searching distribution (left), spatial interference
     distribution (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/crw/block-acq-explore-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/crw/fsm-interference-locs2D.mp4"  width=50px >}}
+    {{< video src="showcase/crw/block-acq-explore-locs2D.mp4" width=50px type="video/mp4">}}
+    {{< video src="showcase/crw/fsm-interference-locs2D.mp4"  width=50px >}}
 
   - DPO: spatial searching distribution (left), spatial interference
     distribution (right):
