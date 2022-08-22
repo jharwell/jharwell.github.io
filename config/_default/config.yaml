@@ -1,0 +1,102 @@
+title: John Harwell @UMN
+baseurl: 'https://jharwell.github.io/'
+copyright: ''
+enableGitInfo: true
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+summaryLength: 30
+paginate: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles:
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _files$
+  - _cache$
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - WebAppManifest
+  section:
+    - HTML
+    - RSS
+mediaTypes:
+  application/manifest+json:
+    suffixes:
+      - webmanifest
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    rel: manifest
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+  tableOfContents:
+    startLevel: 1
+    ordered: true
+    endLevel: 3
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+  author: authors
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: title
+      weight: 60
+    - name: summary
+      weight: 50
+    - name: tags
+      weight: 80
+    - name: categories
+      weight: 70
+    - name: authors
+      weight: 20
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    - path: >-
+        github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+security:
+  enableInlineShortcodes: true
+  exec:
+    allow:
+      - ^dart-sass-embedded$
+      - ^go$
+      - ^npx$
+      - ^postcss$
+    osEnv:
+      - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+  http:
+    methods:
+      - (?i)GET|POST
+    urls:
+      - .*

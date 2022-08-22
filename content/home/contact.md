@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 130
 
-title: Contact
-subtitle:
+title: Contact Me
+subtitle: ''
 
 content:
   # Automatically link email and phone or display as text?
@@ -24,6 +24,34 @@ content:
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: true
+
+  # Contact details (edit or remove options as required)
+  email: harwe006@umn.edu
+  # phone: 651 261 2862
+  #address:
+  #  street: 100 Union St SE
+  #  city: Minneapolis
+  #  region: MN
+  #  postcode: 55455
+  #  country: United States
+  #  country_code: US
+  #coordinates:
+  #  latitude: 44.97559
+  #  longitude: '-93.23244'
+  #directions: Enter Building and look for Lab 160
+  #office_hours:
+  #  - 'Monday 10:00 to 13:00'
+  #  - 'Wednesday 09:00 to 10:00'
+  appointment_url: 'https://calendly.com/john-r-harwell'
+  #contact_links:
+  #  - icon: twitter
+  #    icon_pack: fab
+  #    name: DM Me
+  #    link: 'https://twitter.com/Twitter'
+  #  - icon: video
+  #    icon_pack: fas
+  #    name: Zoom Me
+  #    link: 'https://zoom.com'
 
 design:
   columns: '2'

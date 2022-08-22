@@ -677,7 +677,7 @@ to be stitched together into videos in stage 4. A .csv - .png pair is shown
 below.
 
 ## Raw .csv from outputs
-{{% include "./static/media/showcase/crw/block-acq-explore-locs2D_0000001000.md" %}}
+{{% include "./assets/media/showcase/crw/block-acq-explore-locs2D_0000001000.md" %}}
 
 ## "Imagized" .csv
 {{<figure library="true" src="showcase/crw/block-acq-explore-locs2D_0000001000.png" caption="The result of rendering the .csv above into a .png" width="40%">}}
