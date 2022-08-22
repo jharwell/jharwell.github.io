@@ -13,7 +13,7 @@ organizations:
 - name: University of Minnesota
   url: https://www.umn.edu
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include swarm robotics, emergent behavior, and mathematical modeling.
+bio: My research interests include multi-agent modeling, swarm robotics, emergent behaviors, and computational optimization.
 
 interests:
 - Swarm Intelligence/Robotics

@@ -73,13 +73,13 @@ Scenario 1 (small warehouse), 32x16 arena with 128 robots:
 
 - CRW (left), DPO (right)
 
-  {{< video src="showcase/crw/2021-tro-sc1_0_output.mp4" width=50px >}}
-  {{< video src="showcase/dpo/2021-tro-sc1_0_output.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/crw/2021-tro-sc1_0_output.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/dpo/2021-tro-sc1_0_output.mp4" width=50px >}}
 
 - STOCHM (left), STOCHX (right)
 
-  {{< video library="true" autoplay="true" loop="true" class="aligncenter" src="showcase/stochm/2021-tro-sc1_0_output.mp4" width=50px >}}
-  {{< video library="true" autoplay="true" loop="true" class="aligncenter" src="showcase/stochx/2021-tro-sc1_0_output.mp4" width=50px >}}
+  {{< video library="true" autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochm/2021-tro-sc1_0_output.mp4" width=50px >}}
+  {{< video library="true" autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochx/2021-tro-sc1_0_output.mp4" width=50px >}}
 
 
 # Diagnostic Videos
@@ -90,26 +90,26 @@ Scenario 1 (small warehouse), 32x16 arena with single source block distribution,
   - CRW: spatial searching distribution (left), spatial interference
     distribution (right):
 
-    {{< video src="showcase/crw/block-acq-explore-locs2D.mp4" width=50px type="video/mp4">}}
-    {{< video src="showcase/crw/fsm-interference-locs2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/crw/block-acq-explore-locs2D.mp4" width=50px type="video/mp4">}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/crw/fsm-interference-locs2D.mp4"  width=50px >}}
 
   - DPO: spatial searching distribution (left), spatial interference
     distribution (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/dpo/block-acq-explore-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/dpo/fsm-interference-locs2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/dpo/block-acq-explore-locs2D.mp4" width=50px >}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/dpo/fsm-interference-locs2D.mp4"  width=50px >}}
 
   - STOCHM: spatial searching distribution (left), spatial interference
     distribution (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/stochm/block-acq-explore-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/stochm/fsm-interference-locs2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochm/block-acq-explore-locs2D.mp4" width=50px >}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochm/fsm-interference-locs2D.mp4"  width=50px >}}
 
   - STOCHX: spatial searching distribution (left), spatial interference
     distribution (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/stochx/block-acq-explore-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/stochx/fsm-interference-locs2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochx/block-acq-explore-locs2D.mp4" width=50px >}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochx/fsm-interference-locs2D.mp4"  width=50px >}}
 
 Scenario 1 (medium warehouse), 48x48 arena with random block distribution, 256
 robots:
@@ -117,23 +117,23 @@ robots:
 - CRW: spatial block pickup distribution (left), spatial occupancy distribution
     (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/crw/block-acq-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/crw/swarm-dist-pos2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/crw/block-acq-locs2D.mp4" width=50px >}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/crw/swarm-dist-pos2D.mp4"  width=50px >}}
 
 - DPO: spatial block pickup distribution (left), spatial occupancy distribution
     (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/dpo/block-acq-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/dpo/swarm-dist-pos2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/dpo/block-acq-locs2D.mp4" width=50px >}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/dpo/swarm-dist-pos2D.mp4"  width=50px >}}
 
 - STOCHM: spatial block pickup distribution (left), spatial occupancy distribution
     (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/stochm/block-acq-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/stochm/swarm-dist-pos2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochm/block-acq-locs2D.mp4" width=50px >}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochm/swarm-dist-pos2D.mp4"  width=50px >}}
 
 - STOCHX: spatial block pickup distribution (left), spatial occupancy distribution
     (right):
 
-    {{< video library="true" controls="yes" class="alignleft" src="showcase/stochx/block-acq-locs2D.mp4" width=50px >}}
-    {{< video library="true" controls="yes" class="alignright" src="showcase/stochx/swarm-dist-pos2D.mp4"  width=50px >}}
+    {{< video library="true" controls="yes" class="alignleft" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochx/block-acq-locs2D.mp4" width=50px >}}
+    {{< video library="true" controls="yes" class="alignright" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/stochx/swarm-dist-pos2D.mp4"  width=50px >}}
