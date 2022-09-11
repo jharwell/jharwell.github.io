@@ -31,12 +31,12 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 
-# - url: https://github.com/swarm-robotics/fordyca.git
+# - url: https://github.com/jharwell/fordyca.git
 #   icon_pack: fab
 #   icon: github
 #   name: 'FORDYCA GitHub'
 #
-# - url: https://swarm-robotics-fordyca.readthedocs.io/en/latest
+# - url: https://jharwell-fordyca.readthedocs.io/en/latest
 #   icon_pack: fa
 #   icon: book
 #   name: 'FORDYCA Docs'

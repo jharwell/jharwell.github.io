@@ -24,7 +24,7 @@ tags:
 - Active
 
 # Optional external URL for project (replaces project detail page).
-# external_link: "https://github.com/swarm-robotics/sierra.git"
+# external_link: "https://github.com/jharwell/sierra.git"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -38,12 +38,12 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 
-- url: https://github.com/swarm-robotics/sierra.git
+- url: https://github.com/jharwellsierra.git
   icon_pack: fab
   icon: github
   name: SIERRA GitHub
 
-- url: https://swarm-robotics-sierra.readthedocs.io/en/latest
+- url: https://sierra.readthedocs.io/en/latest
   icon_pack: fa
   icon: book
   name: SIERRA Docs
@@ -58,7 +58,7 @@ A more detailed explanation of the SIERRA framework presented in
 [AAMAS2022]({{<ref "publication/harwell-2022-a-SIERRA">}}).
 
 Note: The version of SIERRA demonstrated here is older than the current SIERRA
-version--see the [docs](https://swarm-robotics-sierra.readthedocs.io/en/latest)
+version--see the [docs](https://sierra.readthedocs.io/en/latest)
 for the latest overview.
 
 This page contains:
@@ -110,9 +110,9 @@ configuration/# of robots).
 
 SIERRA supports multiple HPC environments for execution of experiments in
 simulation
-([docs](https://swarm-robotics-sierra.readthedocs.io/en/latest/src/exec_env/hpc.html))
+([docs](https://sierra.readthedocs.io/en/latest/src/exec_env/hpc.html))
 and on real robots
-([docs](https://swarm-robotics-sierra.readthedocs.io/en/latest/src/exec_env/robots.html)):
+([docs](https://sierra.readthedocs.io/en/latest/src/exec_env/robots.html)):
 
 | Execution Environment     | Supported Platforms |
 | ------------------------- | ------------------- |
@@ -123,7 +123,7 @@ and on real robots
 | [ROS+Turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview) | ROS+Gazebo, ROS+robot |
 
 To add additional execution environments, see the
-[docs](https://swarm-robotics-sierra.readthedocs.io/en/latest/src/tutorials/plugin/exec_env_plugin.html).
+[docs](https://sierra.readthedocs.io/en/latest/src/tutorials/plugin/exec_env_plugin.html).
 
 ## 3. Processing experiment results
 
@@ -218,7 +218,7 @@ interface for the below pipeline to automate your research workflow:
 - [ROS](https://ros.org) for ROS on a real robot.
 
 To define additional platforms, see the
-[docs](https://swarm-robotics-sierra.readthedocs.io/en/latest/src/tutorials/plugin/platform_plugin.html).
+[docs](https://sierra.readthedocs.io/en/latest/src/tutorials/plugin/platform_plugin.html).
 
 
 # SIERRA Demonstration Context

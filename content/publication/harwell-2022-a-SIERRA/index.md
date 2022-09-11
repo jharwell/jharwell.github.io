@@ -32,11 +32,11 @@ image:
 
 links:
 - name: Github
-  url: https://github.com/swarm-robotics/sierra.git
+  url: https://github.com/jharwell/sierra.git
   icon_pack: fab
   icon: github
 
-- url: https://swarm-robotics-sierra.readthedocs.io/en/master
+- url: https://sierra.readthedocs.io/en/master
   icon_pack: fa
   icon: book
   name: 'Docs'

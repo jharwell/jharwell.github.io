@@ -28,7 +28,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Github
-  url: https://github.com/swarm-robotics/rcsw.git
+  url: https://github.com/jharwell/rcsw.git
   icon_pack: fab
   icon: github
 

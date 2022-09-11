@@ -10,11 +10,11 @@ evaluation in the paper.
 
 authors: []
 tags:
-- tro-2021
+- aas-2022
 
 weight: 1
 categories: []
-date: 2021-05-19T
+date: 2022-08-22T
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -31,7 +31,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 
-# - url: https://github.com/swarm-robotics/fordyca.git
+# - url: https://github.com/jharwell/fordyca.git
 #   icon_pack: fab
 #   icon: github
 #   name: 'FORDYCA GitHub'

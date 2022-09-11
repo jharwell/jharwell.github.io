@@ -10,8 +10,12 @@ role: Researcher
 
 # Organizations/Affiliations
 organizations:
+- name: Swarm Information Flow Technologies (SIFT)
+  url: https://www.sift.net
+  
 - name: University of Minnesota
   url: https://www.umn.edu
+  
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include multi-agent modeling, swarm robotics, emergent behaviors, and computational optimization.
 
@@ -43,7 +47,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:harwe006@umn.edu
+  link: mailto:jharwell@sift.net
 
 - icon: linkedin-in
   icon_pack: fab
@@ -59,7 +63,7 @@ social:
 
 - icon: cv
   icon_pack: ai
-  link: media/john-harwell-cv-full-v27.pdf
+  link: media/john-harwell-cv-full-v28.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
