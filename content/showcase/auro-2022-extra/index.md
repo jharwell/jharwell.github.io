@@ -51,9 +51,24 @@ This page provides supplementary material for the paper.
 
 Below are some sample videos from experiments which were performed to help give
 intuition on what the different block distributions looked like and the
-experimental parameters.
+experimental parameters. The number of robots used in each corresponding
+(SS,DS,RN,PL) experiment below is the same, but the _density_ is different. In
+the first set, the shown density is the maximum tested, 0.1. In the second set,
+the density is a constant 0.01. Experiments are sped up by a factory of 10.
 
-## Low, Constant Swarm Density
+## Small Swarm Size, Variable Swarm Density
+
+- Single Source (left), Dual Source (right)
+
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-SS.16x8x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-DS.16x8x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
+
+- Random (left), Power Law (right)
+
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-RN.16x16x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-PL.16x16x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
+
+## Small Swarm Size, Constant Swarm Density
 
 - Single Source (left), Dual Source (right)
 
@@ -64,7 +79,6 @@ experimental parameters.
 
   {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-RN.8x8x2+population_constant_density.1p0.I4.C16.mp4" width=50px >}}
   {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-PL.8x8x2+population_constant_density.1p0.I4.C16.mp4" width=50px >}}
-
 
 # Real-Robot Experiments
 

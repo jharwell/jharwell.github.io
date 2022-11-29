@@ -1,4 +1,6 @@
-title: John Harwell @UMN
+title: John Harwell
+# Must match wherever the built site will be deployed to!
+# baseurl: 'https://www-users.cse.umn.edu/~harwe006/'
 baseurl: 'https://jharwell.github.io/'
 copyright: ''
 enableGitInfo: true
