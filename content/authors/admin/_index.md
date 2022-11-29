@@ -10,21 +10,24 @@ role: Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: Swarm Information Flow Technologies (SIFT)
+
+- name: Smart Information Flow Technologies (SIFT)
   url: https://www.sift.net
-  
+
 - name: University of Minnesota
   url: https://www.umn.edu
-  
+
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include multi-agent modeling, swarm robotics, emergent behaviors, and computational optimization.
+bio: My research interests include multi-agent modeling, swarm intelligence, bio-inspired robotics, and computational optimization.
 
 interests:
-- Swarm Intelligence/Robotics
-- Mathematical Modeling of Multi-agent Systems
-- Task Allocation
-- Algorithm Design
-- Embedded Systems
+- Swarm intelligence
+- Swarm robotics
+- Mathematical modeling of multi-agent systems
+- Distributed algorithm design and data structures
+- Software engineering
+- Real-time embedded systems
+- High performance computing computational optimization
 
 education:
   courses:
@@ -78,27 +81,42 @@ user_groups:
 - Visitors
 ---
 
-I am a recent PhD graduate at the University of Minnesota, and member of the
-Artificial Intelligence, Robotics, and Vision Laboratory at the University of
-Minnesota, under the direction of Dr. Maria Gini, my advisor. My research
-interests lie broadly in the investigation of emergent behavior in large
-interacting multi-agent systems, at the intersection of task allocation,
-mathematical modeling, swarm robotics, and swarm intelligence.  I'm interested
-in two main areas:
+Dr. Harwell is a post-doctal researcher specializing in theoretical swarm
+robotics. His PhD thesis developed new theoretical tools for measuring,
+modeling, controlling, and (critically) predicting the behavior of bio-inspired
+multi-agent systems from small (≤ 5 agents) to large (≥ 10, 000 agents) scales,
+and targeted applications to foraging and construction tasks in dynamic,
+dangerous, and unknown environments.
 
-- Understanding the fundamental principles of large swarms, including the
-  "unpredictable" behaviors which emerge as such complex systems interact with
-  their environments in non-trivial ways, to develop better models of collective
-  behavior.
+His research interests lie in the investigation of behavior in interacting
+multi-agent systems, at the intersection of task allocation, mathematical
+modeling, complexity theory, robotics, and swarm intelligence. He is interested
+in the following broad areas:
 
-- Developing mathematical models for predictive control of large-scale
-  multi-agent robotic systems from first principles which are robust enough to
-  cross the simulation-reality gap.  Of particular interest are applications in
-  dangerous or unstable environments (e.g., mining, space exploration), or
-  dynamic environments (i.e., those which are modified by the swarm as it
-  operates), such as agriculture, autonomous construction, debris/waste
-  removal.
+1. Understanding the fundamental principles of large systems, including the
+   “unpredictable” behaviors which emerge as systems interact with their
+   environments in non-trivial ways, to develop better models of collective
+   behavior.  Developing mathematical models for predictive control of
+   large-scale multi-agent systems from first principles which are robust enough
+   to cross the simulation-reality gap. Of particular interest are applications
+   in dangerous or unstable environments (e.g., mining, space exploration), or
+   dynamic environments (i.e., those which are modified by the swarm as it
+   operates), such as agriculture, autonomous construction, debris/waste
+   removal.
 
-My areas of expertise include: swarm intelligence, swarm robotics, mathematical
-modeling of multi-agent systems, algorithm design, data structures, software
-engineering, real-time embedded systems, and high performance computing.
+2. In addition to theoretical swarm robotics, Dr. Harwell is also interested in
+   bringing elements of software engineering into research in order to
+   accelerate research progress and reproducibility through automation. He has
+   authored several tools and frameworks towards this goal, including:
+
+    - **LIBRA** (**L**uig**I** **B**uild **R**eusable **A**utomation). A handy
+      cmake automation framework for devops tasks for C/C++ projects. See the
+      project or docs pages for more details.
+
+    - **SIERRA** (re**S**earch p**I**pelin**E** for **E**eusability,
+      **R**eproducibility, and **A**utomation. Plugin-based tool that makes it
+      easy to investigate research questions like "How will system behavior
+      change if I vary X between 1 and 10?". Targets robotics and multi-agent
+      systems, handling low-level engineering details such as execution
+      environment and platform (arbitrary simulator, real robots, etc.)
+      configuration. See the project or docs pages for more details.
