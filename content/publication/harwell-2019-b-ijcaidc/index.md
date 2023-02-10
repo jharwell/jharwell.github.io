@@ -33,10 +33,17 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: [fordyca]
-publishDate: '2021-10-13T19:09:53.159743Z'
+publishDate: '2023-02-10T20:55:19.359102Z'
 publication_types:
 - '1'
-abstract: ''
+abstract: Automation in construction is possible with systems designed using the swarm
+  robotic principles of scalability, flexibility, robustness, and emergence. We derive
+  quantitative measurements of these principles in 10,000 robot swarms as a first
+  step in achieving this goal. We summarize our recent task allocation work in the
+  context of an object gathering task and demonstrate its feasibility in the context
+  of automated construction tasks. We present a trajectory to extend our current task
+  allocation methodology using stochastic processes in order to present a unified
+  approach to task allocation in swarm-robotic construction.
 publication: '*Proceedings of the Twenty-Eighth International Joint Conference on
   Artificial Intelligence, IJCAI-19*'
 links:

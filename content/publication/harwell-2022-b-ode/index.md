@@ -14,7 +14,7 @@ tags:
 - Foraging
 
 categories: []
-date: '2021-01-10-26'
+date: '2022-01-01'
 lastmod: 2021-10-26T08:15:38-05:00
 featured: true
 draft: false
@@ -37,26 +37,21 @@ projects:
 
 publication_types:
 - '3'
-abstract: 'We study the limits of linear modeling of swarm
-behavior by characterizing the inflection point beyond which
-linear models of swarm collective behavior break down. The
-problem we consider is a central place object gathering task.
-We design a linear model which strives to capture the un-
-derlying dynamics of object gathering in robot swarms from
-first principles, rather than extensively relying on post-hoc
-model fitting. We evaluate our model with swarms of up to
-8,000 robots in simulation, demonstrating that it accurately
-captures underlying swarm behavioral dynamics when the
-swarm can be approximated using the mean-field model, and
-when it cannot, and finite-size effects are present. We further
-apply our model to swarms exhibiting non-linear behaviors,
-and show that it still provides accurate predictions in some
-scenarios, thereby establishing better practical limits on lin-
-ear modeling of swarm behaviors.'
+abstract: 'We study the limits of linear modeling of swarm behavior by characterizing
+  the inflection point beyond which linear models of swarm collective behavior break
+  down. The problem we consider is a central place object gathering task. We design
+  a linear model which strives to capture the underlying dynamics of object gathering
+  in robot swarms from first principles, rather than extensively relying on post-hoc
+  model fitting. We evaluate our model with swarms of up to 8,000 robots in simulation,
+  demonstrating that it accurately captures underlying swarm behavioral dynamics when
+  the swarm can be approximated using the mean-field model, and when it cannot, and
+  finite-size effects are present. We further apply our model to swarms exhibiting
+  non-linear behaviors, and show that it still provides accurate predictions in some
+  scenarios, thereby establishing better practical limits on linear modeling of swarm
+  behaviors. '
 publication: ''
 links:
-- name: 'ArXiv'
+- name: arXiv
   url: https://arxiv.org/abs/2110.12307
-  icon: "arxiv"
-  icon_pack: "ai"
+publishDate: '2023-02-10T20:55:18.875058Z'
 ---

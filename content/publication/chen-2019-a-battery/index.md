@@ -29,10 +29,20 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-10T20:05:29.869752Z'
+publishDate: '2023-02-10T20:55:19.512323Z'
 publication_types:
 - '0'
-abstract: ''
+abstract: ' Miniaturization and cost, two of the main attractive factors of swarm
+  robotics, have motivated its use as a solution in object collecting tasks, search
+  & rescue missions, and other applications. However, in the current literature only
+  a few papers consider energy allocation efficiency within a swarm. Generally, robots
+  recharge to their maximum level every time unconditionally, and do not incorporate
+  estimates of the energy needed for their next task. In this paper we present an
+  energy efficiency maximization method that minimizes the overall energy cost within
+  a swarm while simultaneously maximizing swarm performance on an object gathering
+  task. The method utilizes dynamic thresholds for upper and lower battery limits.
+  This method has also shown to improve the efficiency of existing energy management
+  methods. '
 publication: '*arXiv:1906.01957 [cs.MA]*'
 links:
 - name: URL

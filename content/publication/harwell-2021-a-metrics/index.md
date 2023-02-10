@@ -7,14 +7,13 @@ summary: ''
 authors:
 - John Harwell
 - Maria Gini
-
 tags:
 - Swarm Engineering
 - Queueing Theory
 - Foraging
 
 categories: []
-date: '2020-11-01'
+date: '2021-01-01'
 lastmod: 2021-01-07T11:08:35-06:00
 featured: true
 draft: false
@@ -32,29 +31,34 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: ['fordyca']
-publishDate: '2021-01-07T17:08:34.824205Z'
+projects: [fordyca]
+publishDate: '2023-02-10T20:55:19.021610Z'
 publication_types:
 - '3'
-abstract: 'When designing swarm-robotic systems, systematic
-comparison of swarm control algorithms is necessary to de-
-termine which can scale up to handle the target problem size
-and operating conditions. Qualitative predictions of performance
-based on algorithm descriptions are often incorrect, and can
-lead to costly design processes for swarm-robotic systems. We
-propose a set of quantitative measures for swarm scalability,
-emergence, flexibility, and robustness which enable swarm control
-algorithms analysis and comparison, swarm performance of a
-given control algorithm, collectively enabling quicker and more
-confident design decisions. We demonstrate the utility of our
-proposed measurements as modeling and design tools for real-
-world scenarios by analyzing two common problems, indoor
-warehouse object transport and search and rescue, and present
-experimental results obtained in simulation.'
-publication: ''
+abstract: 'We present a set of metrics intended to supplement designer intuitions
+  when designing swarm-robotic systems to solve variants of object gathering problems,
+  increase accuracy in extrapolating swarm behavior from algorithmic descriptions
+  and small test experiments, and lead to faster and less costly design cycles. We
+  build on previous works studying self-organizing behaviors in autonomous systems
+  to derive a metric for swarm emergent self-organization. We utilize techniques from
+  high performance computing, time series analysis, and queueing theory to derive
+  metrics for swarm scalability, flexibility to changing external environments, and
+  robustness to internal system stimuli such as sensor and actuator noise and robot
+  failures. We demonstrate the utility of our metrics by analyzing four different
+  control algorithms in two scenarios: an indoor warehouse object transport scenario
+  with static objects and a spatially unconstrained outdoor search and rescue scenario
+  with moving objects. In the spatially constrained warehouse scenario, efficient
+  use of space is key to success so algorithms that use mechanisms for traffic regulation
+  and congestion reduction are the most appropriate.  In the search and rescue scenario,
+  the same will happen with algorithms which can cope well with object motion through
+  dynamic task allocation and randomized search trajectories. We show that our intuitions
+  about comparative algorithm performance are well supported by the quantitative results
+  obtained using our metrics, and that our metrics can be synergistically used together
+  to predict collective behaviors based on previous results in some cases.'
+publication: '*IEEE Transactions on Robotics*'
 links:
-- name: 'ArXiv'
+- name: ArXiv
   url: https://arxiv.org/abs/2012.04144
-  icon: "arxiv"
-  icon_pack: "ai"
+  icon: arxiv
+  icon_pack: ai
 ---

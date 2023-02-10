@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Doctoral Consortium: From Foraging To Construction in a 1,000,000 Robot Swarm"
+title: "From Foraging To Construction in a 1,000,000 Robot Swarm"
 event: IJCAI 2019
 event_url:
 location:

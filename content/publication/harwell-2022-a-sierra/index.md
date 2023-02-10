@@ -1,25 +1,22 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'SIERRA: A Modular Framework for Research Automation (Demo paper)'
+title: 'SIERRA: A Modular Framework for Research Automation'
 subtitle: ''
 summary: ''
 authors:
 - John Harwell
 - London Lowmanstone
 - Maria Gini
-
 tags:
-- Research Automation
-- Robotics
-- FORDYCA
-- PRISM
-- Reproducibility
-
+- simulation
+- real robots
+- research automation
+- scientific method
 categories: []
-date: '2022-05-11'
+date: '2022-01-01'
 lastmod: 2022-05-31T19:49:33-06:00
-featured: true
+featured: false
 draft: false
 
 # Featured image
@@ -39,7 +36,10 @@ links:
 - url: https://sierra.readthedocs.io/en/master
   icon_pack: fa
   icon: book
-  name: 'Docs'
+  name: Docs
+
+- name: PDF
+  url: https://ifaamas.org/Proceedings/aamas2022/pdfs/p1905.pdf
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -49,27 +49,22 @@ links:
 projects:
 - sierra
 
-publishDate: '2022-03-04T01:49:32.995082Z'
+publishDate: '2023-02-10T20:55:18.741847Z'
 publication_types:
 - '1'
+abstract: Modern intelligent systems researchers form hypotheses about system behavior,
+  and then run experiments using one or more independent variables to test their hypotheses.
+  We present SIERRA, a novel framework structured around that idea for accelerating
+  research developments and improving reproducibility of results. SIERRA makes it
+  easy to quickly specify the independent variable(s) for an experiment, generate
+  experimental inputs, automatically run the experiment, and process the results to
+  generate deliverables such as graphs and videos. SIERRA provides reproducible automation
+  independent of the execution environment (HPC hardware, real robots, etc.) and targeted
+  platform (arbitrary simulator or real robots), enabling exact experiment replication
+  (up to the limit of the execution environment and platform). It employs a deeply
+  modular approach that allows easy customization and extension of automation for
+  the needs of individual researchers, thereby eliminating manual experiment configuration
+  and result processing via throw-away scripts.
 
-abstract: "Modern intelligent systems researchers employ the scientific method: they form
-  hypotheses about system behavior, and then run experiments using one or more
-  independent variables to test their hypotheses.  We present SIERRA, a novel
-  framework structured around that idea for accelerating research developments
-  and improving reproducibility of results. SIERRA makes it easy to quickly
-  specify the independent variable(s) for an experiment, generate experimental
-  inputs, automatically run the experiment, and process the results to generate
-  deliverables such as graphs and videos. SIERRA provides reproducible
-  automation independent of the execution environment (HPC hardware, real
-  robots, etc.) and targeted platform (arbitrary simulator or real robots),
-  enabling exact experiment replication (up to the limit of the execution
-  environment and platform). It employs a deeply modular approach that allows
-  easy customization and extension of automation for the needs of individual
-  researchers, thereby eliminating manual experiment configuration and result
-  processing via throw-away scripts."
-
-links:
-- name: PDF
-  url: https://ifaamas.org/Proceedings/aamas2022/pdfs/p1905.pdf
+publication: "*Proc. Int'l Conf. on Autonomous Agents and Multiagent Systems (AAMAS)*"
 ---

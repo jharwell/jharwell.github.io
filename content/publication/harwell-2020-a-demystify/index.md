@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Demystifying Emergent Intelligence and Its Effect on Performance In Large Robot
+title: Demystifying Emergent Intelligence And Its Effect On Performance In Large Robot
   Swarms
 subtitle: ''
 summary: ''
@@ -15,7 +15,7 @@ tags:
 - Matroids
 
 categories: []
-date: '2020-01-01'
+date: '2020-05-01'
 lastmod: 2021-01-07T11:08:34-06:00
 featured: true
 draft: false
@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: [fordyca]
-publishDate: '2021-10-13T19:10:52.574333Z'
+publishDate: '2023-02-10T20:55:19.097908Z'
 publication_types:
 - '1'
 abstract: "We investigate the emergence of swarm intelligence using task allocation\
@@ -52,8 +52,7 @@ abstract: "We investigate the emergence of swarm intelligence using task allocat
   \ to the richness of task decomposition graphs (2) is positively correlated with\
   \ performance, (3) arises out of learning and exploitation of graph connectivity\
   \ and structure, rather than graph content."
-publication: '*Proceedings of the 19th International Conference on Autonomous Agents
-  and MultiAgent Systems*'
+publication: "*Proc. Int'l Conf. on Autonomous Agents and Multi-Agent Systems (AAMAS)*"
 links:
 - name: PDF
   url: http://ifaamas.org/Proceedings/aamas2020/pdfs/p474.pdf

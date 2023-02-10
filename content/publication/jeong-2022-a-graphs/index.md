@@ -29,9 +29,15 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-02-10T20:05:29.679812Z'
+publishDate: '2023-02-10T20:55:18.948392Z'
 publication_types:
 - '1'
-abstract: ''
+abstract: The exploration time for a swarm of robots doing object gathering depends
+  on the specific task, environment, number of objects, and number of robots. Hence,
+  it is important to understand how different properties affect the exploration time.
+  To address this practical challenge, we present a theoretical analysis of the expected
+  exploration time for a swarm of robots that are searching for objects in an arena
+  and present experimental results obtained with different swarm sizes. The experimental
+  results are consistent with the theoretical analysis.
 publication: '*Intelligent Autonomous Systems 16*'
 ---

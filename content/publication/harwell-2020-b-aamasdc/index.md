@@ -2,19 +2,20 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: A Theoretical Framework for Self-Organized Task Allocation in Large Swarms
+  (Doctoral Consortium)
 subtitle: ''
 summary: ''
 authors:
 - John Harwell
 tags:
-- Foraging
-- Graph Theory
-- Matroids
-- Task Allocation
 - Construction
-
+- Stochastic Processes
+- Graph Theory
+- Task Allocation
+- Swarm Robotics
+- Foraging
 categories: []
-date: '2020-01-01'
+date: '2020-05-01'
 lastmod: 2021-01-07T11:57:39-06:00
 featured: false
 draft: false
@@ -33,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: [fordyca]
-publishDate: '2021-10-13T19:10:52.746579Z'
+publishDate: '2023-02-10T20:55:19.170794Z'
 publication_types:
 - '1'
 abstract: Self-organized task allocation is possible with systems designed using the
@@ -43,8 +44,7 @@ abstract: Self-organized task allocation is possible with systems designed using
   We propose extensions to our current task allocation methodology using stochastic
   processes and graph-theoretic topological invariants to provide a unified algorithmic
   approach to swarm-robotic foraging and construction.
-publication: '*Proceedings of the 19th International Conference on Autonomous Agents
-  and MultiAgent Systems*'
+publication: "*Proc. Int'l Conf. on Autonomous Agents and Multi-Agent Systems (AAMAS)*"
 
 links:
 - name: PDF

@@ -6,8 +6,8 @@ subtitle: ''
 summary: ''
 authors:
 - John Harwell
+- London Lowmanstone
 - Maria Gini
-
 tags:
 - Research Automation
 - Robotics
@@ -40,7 +40,10 @@ links:
 - url: https://sierra.readthedocs.io/en/master
   icon_pack: fa
   icon: book
-  name: 'Docs'
+  name: Docs
+
+- name: PDF
+  url: https://ieeexplore.ieee.org/document/XXXX
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -52,25 +55,22 @@ projects:
 
 publication_types:
 - '1'
-abstract: "We present SIERRA, a novel framework for accelerating development and
-  improving reproducibility of results in robotics research. SIERRA accelerates
-  research by automating the process of generating experiments from queries over
-  independent variables(s), executing experiments, and processing the results to
-  generate deliverables such as graphs and videos. It shifts the paradigm for
-  testing hypotheses from procedural ('Do these steps to answer the query') to
-  declarative ('Here is the query to test---GO!'), reducing the burden on
-  researchers. It employs a modular architecture enabling easy customization and
-  extension for the needs of individual researchers, thereby eliminating manual
-  configuration and processing via throw-away scripts.  SIERRA improves
-  reproducibility of research by providing automation independent of the
-  execution environment (HPC hardware, real robots, etc.) and targeted platform
-  (simulator, real robots, etc.). This enables exact experiment replication, up
-  to the limit of the execution environment and platform, as well as making it
-  easy for researchers to test hypotheses in different computational
-  environments. Though SIERRA is targeted at robotics research, its design makes
-  it extendable to other fields."
-publication: ''
-links:
-- name: PDF
-  url: https://ieeexplore.ieee.org/document/XXXX
+abstract: We present SIERRA, a novel framework for accelerating development and improving
+  reproducibility of results in robotics research. SIERRA accelerates research by
+  automating the process of generating experiments from queries over independent variables(s),
+  executing experiments, and processing the results to generate deliverables such
+  as graphs and videos. It shifts the paradigm for testing hypotheses from procedural
+  (``Do these steps to answer the query'') to declarative (``Here is the query to
+  test---GO!''), reducing the burden on researchers. It employs a modular architecture
+  enabling easy customization and extension for the needs of individual researchers,
+  thereby eliminating manual configuration and processing via throw-away scripts.  SIERRA
+  improves reproducibility of research by providing automation independent of the
+  execution environment (HPC hardware, real robots, etc.) and targeted platform (simulator,
+  real robots, etc.). This enables exact experiment replication, up to the limit of
+  the execution environment and platform, as well as making it easy for researchers
+  to test hypotheses in different computational environments. Though SIERRA is targeted
+  at robotics research, its design makes it extendable to other fields.
+publication: '*2023 International Conference on Robotics and Automation (ICRA)*'
+
+publishDate: '2023-02-10T20:55:18.659094Z'
 ---
