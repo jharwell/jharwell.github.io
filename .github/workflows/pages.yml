@@ -1,10 +1,17 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
+# Run:
+#
+# - Every week. Scheduling helps keep drift/issues with updates
+#   to runners and hugo at bay.
+# - On pushes.
+
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
+  schedule:
+    - cron: '0 0 * * 1'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,13 +36,17 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.99.0
     steps:
       - name: Install Hugo CLI
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest \
+          | grep "browser_download_url.*hugo_extended.*amd64\.deb" \
+          | cut -d : -f 2,3 \
+          | tr -d \" \
+          | wget -i - -O${{ runner.temp }}/hugo.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          hugo version
+
       - name: Checkout
         uses: actions/checkout@v3
         with:

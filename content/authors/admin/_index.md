@@ -81,10 +81,10 @@ user_groups:
 - Visitors
 ---
 
-Dr. Harwell is a post-doctal researcher specializing in multi-agent systems. His
-PhD thesis developed new theoretical tools for measuring, modeling, controlling,
-and (critically) predicting the behavior of bio-inspired multi-agent systems
-from small (≤ 5 agents) to large (≥ 10, 000 agents** scales, and targeted
+Dr. Harwell is a researcher specializing in multi-agent systems. His PhD thesis
+developed new theoretical tools for measuring, modeling, controlling, and
+(critically) predicting the behavior of bio-inspired multi-agent systems from
+small (≤ 5 agents) to large (≥ 10, 000 agents across scales, and targeted
 applications to foraging and construction tasks in dynamic, dangerous, and
 unknown environments.
 
@@ -102,7 +102,7 @@ modeling, complexity theory, robotics, and swarm intelligence. Broadly:
   simulation-reality gap. Of particular interest are applications in dangerous
   or unstable environments (e.g., mining, space exploration), or dynamic
   environments (i.e., those which are modified by the system as it operates),
-  such as agriculture, autonomous construction, debris/waste removal.**
+  such as agriculture, autonomous construction, debris/waste removal.
 
 - Accelerating development of multi-agent systems through better tooling,
   measurements.

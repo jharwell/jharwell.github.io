@@ -26,7 +26,7 @@ content:
       captcha: true
 
   # Contact details (edit or remove options as required)
-  email: harwe006@umn.edu
+  email: john.r.harwell@gmail.com
   # phone: 651 261 2862
   #address:
   #  street: 100 Union St SE
@@ -42,7 +42,7 @@ content:
   #office_hours:
   #  - 'Monday 10:00 to 13:00'
   #  - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com/john-r-harwell'
+  # appointment_url: 'https://calendly.com/john-r-harwell'
   #contact_links:
   #  - icon: twitter
   #    icon_pack: fab

@@ -49,11 +49,40 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-This is a collection of reusable, general purpose C++ code that I have built up
-over the years, and that I update as I have time, implementing various data
-structures, algorithms, abstractions as I need to. One of the challenges of
-creating/maintaining a C++ library is that there are so many other libraries out
-there like Boost, that I have to strike a balance between building something
-from scratch, because I don’t want to try and figure out how to use another
-library, and rolling my own version because I don’t need the industrial strength
-version.
+This is a collection of various useful algorithms/data structures/etc. that I
+have found useful for multi-agent robots research, and that do not currently
+exist in Boost, or that build on what boost provides. Includes such things as:
+
+- Event reporting framework, built on top of Log4cxx.
+
+- Logical task hierarchy, including executives capable of executing a task
+  decomposition graph.
+
+- Data structures involved, such as 2D/3D grid graphs,
+  multiprocessing/multithreading queues/vectors, type maps.
+
+- Some reusable named type definitions.
+
+- Implementation of various design patterns:
+
+    - Polled FSM, Hierarchical FSM
+
+    - decorator
+
+    - visitor
+
+    - factory (releasing/sharing variants)
+
+    - prototype
+
+    - singleton
+
+    - PIMPL
+
+- Components that DO exist elsewhere, but I found their implementations somewhat
+  hard to follow/poorly documented, and it was easier to roll my own.
+
+- Control theoretic bits such as PID loops
+
+- Miscellaneous other things as kmeans clustering,
+  multithreading/multiprocessing management tools.

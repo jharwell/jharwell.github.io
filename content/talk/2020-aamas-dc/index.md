@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "A Theoretical Framework For Self-Organized Task Allocation in Large Swarms"
+title: "Doctoral Consortium: A Theoretical Framework For Self-Organized Task Allocation in Large Swarms"
 event: AAMAS 2020
 event_url:
 location:
