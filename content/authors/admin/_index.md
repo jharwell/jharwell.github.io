@@ -18,16 +18,16 @@ organizations:
   url: https://www.umn.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include multi-agent modeling, swarm intelligence, bio-inspired robotics, and computational optimization.
+bio: My research interests include multi-agent modeling and behaviors, swarm intelligence, bio-inspired algorithms and multi-robot systems, and computational optimization.
 
 interests:
+- Multi-agent systems and mathematical modeling
 - Swarm intelligence
-- Swarm robotics
-- Mathematical modeling of multi-agent systems
+- Multi-robot systems
 - Distributed algorithm design and data structures
-- Software engineering
+- Software engineering practices in research
 - Real-time embedded systems
-- High performance computing computational optimization
+- Computational optimization
 
 education:
   courses:
@@ -50,7 +50,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:jharwell@sift.net
+  link: mailto:john.r.harwell@gmail.com
 
 - icon: linkedin-in
   icon_pack: fab
@@ -66,7 +66,7 @@ social:
 
 - icon: cv
   icon_pack: ai
-  link: media/john-harwell-cv-full-v28.pdf
+  link: media/john-harwell-cv-full-v30.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -81,42 +81,70 @@ user_groups:
 - Visitors
 ---
 
-Dr. Harwell is a post-doctal researcher specializing in theoretical swarm
-robotics. His PhD thesis developed new theoretical tools for measuring,
-modeling, controlling, and (critically) predicting the behavior of bio-inspired
-multi-agent systems from small (≤ 5 agents) to large (≥ 10, 000 agents) scales,
-and targeted applications to foraging and construction tasks in dynamic,
-dangerous, and unknown environments.
+Dr. Harwell is a post-doctal researcher specializing in multi-agent systems. His
+PhD thesis developed new theoretical tools for measuring, modeling, controlling,
+and (critically) predicting the behavior of bio-inspired multi-agent systems
+from small (≤ 5 agents) to large (≥ 10, 000 agents** scales, and targeted
+applications to foraging and construction tasks in dynamic, dangerous, and
+unknown environments.
 
 His research interests lie in the investigation of behavior in interacting
 multi-agent systems, at the intersection of task allocation, mathematical
-modeling, complexity theory, robotics, and swarm intelligence. He is interested
-in the following broad areas:
+modeling, complexity theory, robotics, and swarm intelligence. Broadly:
 
-1. Understanding the fundamental principles of large systems, including the
-   “unpredictable” behaviors which emerge as systems interact with their
-   environments in non-trivial ways, to develop better models of collective
-   behavior.  Developing mathematical models for predictive control of
-   large-scale multi-agent systems from first principles which are robust enough
-   to cross the simulation-reality gap. Of particular interest are applications
-   in dangerous or unstable environments (e.g., mining, space exploration), or
-   dynamic environments (i.e., those which are modified by the swarm as it
-   operates), such as agriculture, autonomous construction, debris/waste
-   removal.
+- Understanding the fundamental principles of large systems, including the
+  “unpredictable” behaviors which emerge as systems interact with their
+  environments in non-trivial ways, to develop better models of collective
+  behavior.
 
-2. In addition to theoretical swarm robotics, Dr. Harwell is also interested in
-   bringing elements of software engineering into research in order to
-   accelerate research progress and reproducibility through automation. He has
-   authored several tools and frameworks towards this goal, including:
+- Developing mathematical models for predictive control of large-scale
+  multi-agent systems from first principles which are robust enough to cross the
+  simulation-reality gap. Of particular interest are applications in dangerous
+  or unstable environments (e.g., mining, space exploration), or dynamic
+  environments (i.e., those which are modified by the system as it operates),
+  such as agriculture, autonomous construction, debris/waste removal.**
 
-    - **LIBRA** (**L**uig**I** **B**uild **R**eusable **A**utomation). A handy
-      cmake automation framework for devops tasks for C/C++ projects. See the
-      project or docs pages for more details.
+- Accelerating development of multi-agent systems through better tooling,
+  measurements.
 
-    - **SIERRA** (re**S**earch p**I**pelin**E** for **E**eusability,
-      **R**eproducibility, and **A**utomation. Plugin-based tool that makes it
-      easy to investigate research questions like "How will system behavior
-      change if I vary X between 1 and 10?". Targets robotics and multi-agent
-      systems, handling low-level engineering details such as execution
-      environment and platform (arbitrary simulator, real robots, etc.)
-      configuration. See the project or docs pages for more details.
+More specifically:
+
+1. Behavioral modeling and analysis: Modeling explicit and implicit information
+   flow in multi-agent systems, information latency. Prediction of collective
+   behavior from first principles on non-trivial problems such as foraging, for
+   both memory-less agents and agents with finite memory (forward
+   problem). Deriving agent controllers to obtain a desired collective behavior
+   (inverse problem).
+
+2. Self-healing systems: Mitigation of malfunctioning sensors/actuators,
+   autonomous convergence recognition. Robust anomaly recognition:
+   task-independent identification of misbehaving individuals in the presence of
+   dynamic workloads. Rebalancing task distributions after handling anomalies or
+   whet tasks change/new tasks are dynamically introduced.
+
+3. Engineering better multi-agent systems: How to create insightful measurements
+   of measurements of system behavior such as self-organization, scalability,
+   convergence, robustness, etc., and how these can be made prescriptive so they
+   can be used in automated design methods.
+
+4. Long-term multi-robot system autonomy: How to increase the ability of these
+   systems to operate for long periods of time without/with minimal human
+   intervention or supervision. Optimal foraging theory, control barrier
+   function approaches, optimization of battery usage under uncertainty.
+
+In addition to theoretical multi-agent systems, Dr. Harwell is also interested
+in bringing elements of software engineering into research in order to
+accelerate research progress and reproducibility through automation. He has
+authored several tools and frameworks towards this goal, including:
+
+- **LIBRA** (**L**uig**I** **B**uild **R**eusable **A**utomation). A handy cmake
+  automation framework for devops tasks for C/C++ projects. See the project or
+  docs pages for more details.
+
+- **SIERRA** (re**S**earch p**I**pelin**E** for **E**eusability,
+  **R**eproducibility, and **A**utomation. Plugin-based tool that makes it easy
+  to investigate research questions like "How will system behavior change if I
+  vary X between 1 and 10?". Targets robotics and multi-agent systems, handling
+  low-level engineering details such as execution environment and platform
+  (arbitrary simulator, real robots, etc.)  configuration. See the project or
+  docs pages for more details.

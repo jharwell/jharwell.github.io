@@ -23,5 +23,5 @@ main:
     url: '#contact'
     weight: 60
   - name: CV
-    url: "media/john-harwell-cv-full-v27.pdf"
+    url: "media/john-harwell-cv-full-v30.pdf"
     weight: 70

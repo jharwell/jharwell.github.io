@@ -14,13 +14,13 @@ authors:
 - Phil M. Westhart
 - John R. Harwell
 tags:
-- '"Computational methods in fluid dynamics"'
-- '"Hydrodynamics"'
-- '"Lattice-Boltzmann"'
-- '"SequenceL"'
+- Computational methods in fluid dynamics
+- Hydrodynamics
+- Lattice-Boltzmann
+- SequenceL
 categories: []
 date: '2017-01-01'
-lastmod: 2021-01-07T11:08:35-06:00
+lastmod: 2023-02-10T14:13:23-06:00
 featured: false
 draft: false
 
@@ -38,7 +38,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-10-13T19:09:52.615722Z'
+publishDate: '2023-02-10T20:13:23.368256Z'
 publication_types:
 - '2'
 abstract: This paper reports, for the first time, the computational performance of
@@ -61,5 +61,4 @@ abstract: This paper reports, for the first time, the computational performance 
   particles, it could be a promising programming language for computationally-efficient
   mesoscale simulations of large numbers of particles in microfluidic experiments.
 publication: '*Computer Physics Communications*'
-doi: 10.1016/j.cpc.2016.12.012
 ---

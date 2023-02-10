@@ -11,8 +11,8 @@ authors:
 tags: []
 categories: []
 date: '2019-01-01'
-lastmod: 2021-10-12T16:45:15-05:00
-featured: true
+lastmod: 2023-02-10T14:05:29-06:00
+featured: false
 draft: false
 
 # Featured image
@@ -28,15 +28,13 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [fordyca]
-publishDate: '2021-10-12T21:45:15.493701Z'
+projects: []
+publishDate: '2023-02-10T20:05:29.869752Z'
 publication_types:
-- '3'
+- '0'
 abstract: ''
 publication: '*arXiv:1906.01957 [cs.MA]*'
 links:
-- name: 'ArXiv'
-  url: https://arxiv.org/abs/1906.01957
-  icon: "arxiv"
-  icon_pack: "ai"
+- name: URL
+  url: http://arxiv.org/abs/1906.01957
 ---
