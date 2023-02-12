@@ -22,6 +22,15 @@ main:
   - name: Contact
     url: '#contact'
     weight: 60
-  - name: CV
-    url: "media/john-harwell-cv-full-v30.pdf"
+
+  - name: CV/Resume
     weight: 70
+
+  - name: Academic CV
+    parent: CV/Resume
+    url: "media/john-harwell-academic-cv-v32.pdf"
+
+
+  - Name: Industry CV (2 pages)
+    parent: CV/Resume
+    url: "media/john-harwell-industry-cv-v0.pdf"
