@@ -134,17 +134,4 @@ More specifically:
 
 In addition to theoretical multi-agent systems, Dr. Harwell is also interested
 in bringing elements of software engineering into research in order to
-accelerate research progress and reproducibility through automation. He has
-authored several tools and frameworks towards this goal, including:
-
-- **LIBRA** (**L**uig**I** **B**uild **R**eusable **A**utomation). A handy cmake
-  automation framework for devops tasks for C/C++ projects. See the project or
-  docs pages for more details.
-
-- **SIERRA** (re**S**earch p**I**pelin**E** for **E**eusability,
-  **R**eproducibility, and **A**utomation. Plugin-based tool that makes it easy
-  to investigate research questions like "How will system behavior change if I
-  vary X between 1 and 10?". Targets robotics and multi-agent systems, handling
-  low-level engineering details such as execution environment and platform
-  (arbitrary simulator, real robots, etc.)  configuration. See the project or
-  docs pages for more details.
+accelerate research progress and reproducibility through automation.

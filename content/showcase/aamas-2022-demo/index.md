@@ -14,7 +14,7 @@ tags:
 
 weight: 1
 categories: []
-date: 2022-01-22T
+date: 2022-01-22
 
 tags:
 - Research

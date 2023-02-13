@@ -14,7 +14,7 @@ tags:
 
 weight: 1
 categories: []
-date: 2022-08-22T
+date: 2022-08-22
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
