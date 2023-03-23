@@ -7,11 +7,20 @@ authors: []
 tags:
 - C++
 - Active
+- Data structures
+- Concurrent programming
+- Design patterns
+- Named types
+- Metric collection
+- Template metaprogramming
+- Control theory
+- Event reporting
+- Random number generation
 
 weight: 2
 
 categories: []
-#date: 2021-01-07
+date: 2016-01-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -32,7 +41,7 @@ links:
   icon_pack: fab
   icon: github
 
-- url: https://swarm-robotics-rcppsw.readthedocs.io/en/latest
+- url: https://jharwell.github.io/rcppsw
   icon_pack: fa
   icon: book
   name: 'Docs'
@@ -49,6 +58,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
 This is a collection of various useful algorithms/data structures/etc. that I
 have found useful for multi-agent robots research, and that do not currently
 exist in Boost, or that build on what boost provides. Includes such things as:

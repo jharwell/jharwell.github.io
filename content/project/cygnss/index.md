@@ -6,7 +6,12 @@ summary: "CYclone Global Navigation Satellite System"
 authors: []
 tags:
 - C
-- Flight Software
+- Flight software
+- Embedded systems
+- Assembly
+- SPARC
+- LEON2
+- RTEMS
 - Inactive
 
 weight: 0
@@ -35,7 +40,7 @@ image:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=-id3oqrs_pc"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -51,15 +56,29 @@ links:
   url: "https://www.nasa.gov/cygnss"
 
 ---
-While employed an SwRI in San Antonio, TX, I was one of the main developers for
-CYGNSS, a NASA contract awarded to SwRI. The purpose of the CYGNSS mission was
+
+# Overview
+
+The purpose of the CYGNSS mission was
 to improve the accuracy of hurricane forcasting (both in terms of intensity and
 projected path) by catching reflected GPS signals off waves in hurricanes as
 they formed and moved, and from this data compute wave height, windspeed, and
 direction--crucial components in determining hurricane trajectory and projected
 strength.
 
-We developed the flight software which flew onboard each of the 8 satellites in
-the constellation as they orbited the earth around the equator. I contributed
-the bootstrap, system software, and much of the science data processing modules
-for the 8 satellite constellation.
+# My role
+
+As a team we developed the flight software which flew onboard each of the 8
+satellites in the constellation as they orbited the earth around the equator. I
+contributed:
+
+- Bootstrap: written in SPARC assembly
+- System software: written in C. I wrote drivers for UART, I2C, FPGA, SpaceWire,
+  and other communication interfaces, as well as power management. Targeted
+  RTEMS, LEON2-SPARC, 4Mb memory, 50 Mhz.
+
+- Application software: written in C. I contributed to the science data
+  processing modules, telemetry handling, and general satellity health
+  monitoring. Targeted RTEMS, LEON2-SPARC, 4Mb memory, 50 Mhz.
+
+{{<youtube -id3oqrs_pc>}}

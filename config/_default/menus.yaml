@@ -28,9 +28,9 @@ main:
 
   - name: Academic CV
     parent: CV/Resume
-    url: "media/john-harwell-academic-cv-v33.pdf"
+    url: "media/john-harwell-academic-cv-v34.pdf"
 
 
   - Name: Industry CV (2 pages)
     parent: CV/Resume
-    url: "media/john-harwell-industry-cv-v3.pdf"
+    url: "media/john-harwell-industry-cv-v4.pdf"

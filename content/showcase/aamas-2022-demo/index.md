@@ -81,7 +81,7 @@ This page contains:
 
 # SIERRA Architecture
 
-{{< figure library="true" src="sierra-architecture.png" width="80%" caption="Architecture of SIERRA,organized by pipeline stage. Pipeline stages are listed left to right, and an approximate joint architectural/functional stack is top to bottom for each stage. '...' indicates areas where SIERRA is designed via python plugins to be easily extensible. 'Host machine' indicates the machine SIERRA was invoked on." >}}
+{{< figure library="true" src="sierra-architecture.png" width="75%" caption="Architecture of SIERRA,organized by pipeline stage. Pipeline stages are listed left to right, and an approximate joint architectural/functional stack is top to bottom for each stage. '...' indicates areas where SIERRA is designed via python plugins to be easily extensible. 'Host machine' indicates the machine SIERRA was invoked on." >}}
 
 # SIERRA Research Automation
 

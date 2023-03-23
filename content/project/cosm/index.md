@@ -8,14 +8,19 @@ tags:
 - C++
 - ARGoS
 - ROS
-- Task Allocation
-- Hardware Abstraction
-- Platform Abstraction
+- Task allocation
+- Hardware abstraction
+- Platform abstraction
 - Active
+- Artificial potential fields
+- Flocking
+- Foraging
+- Path-planning
+- Noise injection
 
 weight: 1
 categories: []
-#date: 2021-01-07T16:19:31-06:00
+date: 2018-03-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -36,7 +41,7 @@ links:
   icon_pack: fab
   icon: github
 
-- url: https://swarm-robotics-cosm.readthedocs.io/en/latest
+- url: https://jharwell.github.io/cosm
   icon_pack: fa
   icon: book
   name: 'Docs'
@@ -53,6 +58,9 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+# Overview
+
 Core Swarm (COSM) is a middleware-esque library providing:
 
 - A Platform Abstraction Layer (PAL): A common API to different platforms
@@ -98,3 +106,19 @@ Core Swarm (COSM) is a middleware-esque library providing:
       collectors. cosm::tv.
 
     - Simple management of arena state via grid: cosm::arena.
+
+
+
+# Supported Platforms
+
+|                                                                |                                                                                  |
+|:--------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
+| {{< figure library="true" src="argos-logo.png" width="50%" >}} | {{< figure library="true" src="ros-logo.jpg"  class="pull-right" width="50%" >}} |
+|                                                                |                                                                                  |
+
+# Currently Supported Robots
+
+| Turtlebot3 (ROS)                                                      | marXbot (ARGoS)                                                                 | IRIDIA Drone (ARGoS)                                                                  |
+|:---------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
+| {{< figure library="true" src="turtlebot3-burger.jpg" width="50%" >}} | {{< figure library="true" src="marxbot.jpg"  class="pull-right" width="50%" >}} | {{< figure library="true" src="iridia-drone.jpeg"  class="pull-right" width="50%" >}} |
+|                                                                       |                                                                                 |                                                                                       |
