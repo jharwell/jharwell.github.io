@@ -8,7 +8,7 @@ authors: []
 tags:
 - Research
 - Construction
-- Graph Theory
+- Graph theory
 - C++
 - ARGoS
 - Active

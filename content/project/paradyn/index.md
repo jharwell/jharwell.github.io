@@ -8,7 +8,7 @@ tags:
 - C++
 - HPC
 - Research
-- Genetic Algorithms
+- Genetic algorithms
 - Inactive
 
 weight: 0
@@ -46,6 +46,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
 While employed at SwRI in San Antonio, TX, I developed a parallel, dynamic
 optimization engine driven by a genetic algorithm for the purposes of optimizing
 the performance of computationally intensive simulations/analyses at
@@ -58,8 +59,8 @@ PARADYN, a distributed optimizer targeted at heterogeneous clusters. PARADYN
 would:
 
 - Maintain a population of the best formulations of a code base from a
-computational optimization standpoint, and run them all simultaneously on the
-cluster.
+  computational optimization standpoint, and run them all simultaneously on the
+  cluster.
 
 - Monitor the per-timestep execution time of all candidate solutions,
   speculatively executing the ones that maintained high performance, and culling

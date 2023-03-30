@@ -7,7 +7,8 @@ authors: []
 tags:
 - C
 - C++
-- Automation
+- CUDA
+- Build automation
 - Active
 
 weight: 1
@@ -55,22 +56,22 @@ slides: ""
 Reusable build automation in the spirit of the world's second most successful
 plumber.
 
-This project provides 100% reusable `cmake` scaffolding that can be used for
+This project provides 100% reusable ``cmake`` scaffolding that can be used for
 nested/flat C/C++ projects (even mixing the two), and provides resuable build
 "plumbing" that can be transferred without modification between projects. I
 created this project because:
 
-- No existing C/C++ build system supported automatic file discovery like
-  `make`.
+- No existing C/C++/CUDA build system supported automatic file discovery like
+  ``make`` via globs.
 
-- No existing C/C++ build system provided 100% reusability across projects
+- No existing C/C++/CUDA build system provided 100% reusability across projects
   (assuming some conventions for file naming, directory layout, etc.). I found
-  myself frequently copying and pasting `CmakeLists.txt` (or whatever the tol's
-  configuration was )between projects, as I added and when I find a new flag I
-  want to add, or a new static analysis checker, etc., I would have to go and
-  add it to EVERY project.
+  myself frequently copying and pasting ``CmakeLists.txt`` (or whatever the
+  tool's configuration was) between projects, as I added and when I find a new
+  flag I want to add, or a new static analysis checker, etc., I would have to go
+  and add it to EVERY project.
 
-- No existing C/C++ build systems supported doing things like running one or
-  more static analyzers on a repository, formatting the repository, building and
-  running tests, etc. Using `make check`, `make format`, or `make tests`, or
-  other simple cmdline syntax.
+- No existing C/C++/CUDA build systems supported doing things like running one
+  or more static analyzers on a repository, formatting the repository, building
+  and running tests, etc., using ``make check``, ``make format``, or ``make
+  tests``, or other simple cmdline syntax.

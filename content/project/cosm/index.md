@@ -109,7 +109,7 @@ Core Swarm (COSM) is a middleware-esque library providing:
 
 
 
-# Supported Platforms
+# Currently Supported Platforms
 
 |                                                                |                                                                                  |
 |:--------------------------------------------------------------:|:--------------------------------------------------------------------------------:|

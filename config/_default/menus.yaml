@@ -26,11 +26,10 @@ main:
   - name: CV/Resume
     weight: 70
 
+  - name: Industry CV (2 pages)
+    parent: CV/Resume
+    url: "/media/john-harwell-industry-cv-v5.pdf"
+
   - name: Academic CV
     parent: CV/Resume
-    url: "media/john-harwell-academic-cv-v34.pdf"
-
-
-  - Name: Industry CV (2 pages)
-    parent: CV/Resume
-    url: "media/john-harwell-industry-cv-v4.pdf"
+    url: "/media/john-harwell-academic-cv-v34.pdf"
