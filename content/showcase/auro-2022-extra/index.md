@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Supplementary Material for \"An Empirical Characterization of the Limits of Poisson-based
-Models of Swarm Behaviors in Common Scenarios\""
+title: "Supplementary Material for \"An Empirical Characterization of ODE Models of
+  Swarm Behaviors in Common Foraging Scenarios\""
 summary: ""
 
 authors: []
@@ -54,35 +54,61 @@ intuition on what the different block distributions looked like and the
 experimental parameters. The number of robots used in each corresponding
 (SS,DS,RN,PL) experiment below is the same, but the _density_ is different. In
 the first set, the shown density is the maximum tested, 0.1. In the second set,
-the density is a constant 0.01. Experiments are sped up by a factory of 10.
+the density is a constant 0.01. Experiments are sped up by a factor of 10.
 
 ## Small Swarm Size, Variable Swarm Density
 
 - Single Source (left), Dual Source (right)
 
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-SS.16x8x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-DS.16x8x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-SS.16x8x2+population_variable_density.1p0.10p0.C10.mp4" >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-DS.16x8x2+population_variable_density.1p0.10p0.C10.mp4" >}}
 
 - Random (left), Power Law (right)
 
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-RN.16x16x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-PL.16x16x2+population_variable_density.1p0.10p0.C10.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-RN.16x16x2+population_variable_density.1p0.10p0.C10.mp4" >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-PL.16x16x2+population_variable_density.1p0.10p0.C10.mp4" >}}
 
 ## Small Swarm Size, Constant Swarm Density
 
 - Single Source (left), Dual Source (right)
 
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-SS.16x8x2+population_constant_density.1p0.I4.C16.mp4" width=50px >}}
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-DS.16x8x2+population_constant_density.1p0.I4.C16.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-SS.16x8x2+population_constant_density.1p0.I4.C16.mp4" >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-DS.16x8x2+population_constant_density.1p0.I4.C16.mp4" >}}
 
 - Random (left), Power Law (right)
 
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-RN.8x8x2+population_constant_density.1p0.I4.C16.mp4" width=50px >}}
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-PL.8x8x2+population_constant_density.1p0.I4.C16.mp4" width=50px >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-RN.8x8x2+population_constant_density.1p0.I4.C16.mp4" >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/2022ode-PL.8x8x2+population_constant_density.1p0.I4.C16.mp4" >}}
 
 # Real-Robot Experiments
 
-Below is a video of one of the experimental runs of the the real-robot
-experiments:
+We use "extended" TurtleBot3 burger robots some additional sensors added, shown
+in the below video:
 
-{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/real-robots.mp4" width=50px >}}
+- Ultrasonic sensor  to detect blocks
+- 4 Light sensors to provide localization with respect to a light source.
+
+{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/eturtlebot3.mp4" caption="foo">}}
+
+In addition, static "arms" are added to help robots acquire blocks. The arms,
+ultrasonic sensor (bottom center), and light sensors (front; back/left/right not
+visible).
+
+For the real robot experiments we perform 4 experimental runs of 5 minutes each
+with 1-5 robots.  We use the single source (SS) block distribution and a bright
+light source created with photography lights is used as the nest. Below are two
+sample videos: a close up view of a run with 2 robots showing the foraging
+process in detail, and a run with 5 robots showing the full arena.
+
+{{< youtube id="wRNTMhwHA2M"  title="From IMG_5487.MOV" >}}
+{{< youtube id="LKx9rfZgBTA" title="From MVI_4362-001.MP4" >}}
+
+The purpose of these experiments was to show the feasibility of the methodology
+across both the simulation and real robot domains. As such, because our
+methodology assumes steady-state, we require that the number of blocks available
+for robots to find is the same. Thus, we do not run experiments from their start
+with N blocks until their are 0 blocks remaining. Instead, we run each
+experiment for 5 minutes during which time the robots generally do not collect
+enough blocks to appreciably diminish the overall number available, thus
+modeling a "slice" of steady-state time where the number of blocks remains
+approximately constant.

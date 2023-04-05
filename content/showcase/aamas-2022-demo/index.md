@@ -684,7 +684,7 @@ below.
 
 # Demonstration: Experimental Results Visualization (stage 4)
 
-{{< video library="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/2022-aamas-sierra-demo.mp4" controls="yes">}}
+{{< youtube id="ns2Zzm3f3S8" width="100px" >}}
 
 ## Exploring Independent Variables
 
