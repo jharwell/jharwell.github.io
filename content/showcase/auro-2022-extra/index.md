@@ -8,6 +8,10 @@ summary: ""
 authors: []
 tags:
 - auro-2022
+- Foraging
+- ODE modeling
+- Turtlebot3
+- ARGoS
 
 weight: 1
 categories: []
@@ -88,7 +92,7 @@ in the below video:
 - Ultrasonic sensor  to detect blocks
 - 4 Light sensors to provide localization with respect to a light source.
 
-{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/eturtlebot3.mp4" caption="foo">}}
+{{< youtube id="hl35EnIxUMc" >}}
 
 In addition, static "arms" are added to help robots acquire blocks. The arms,
 ultrasonic sensor (bottom center), and light sensors (front; back/left/right not
@@ -112,3 +116,38 @@ experiment for 5 minutes during which time the robots generally do not collect
 enough blocks to appreciably diminish the overall number available, thus
 modeling a "slice" of steady-state time where the number of blocks remains
 approximately constant.
+
+# Effect Of Assumptions On Robot Behavioral Distributions
+
+This section shows the spatial distributions of different robot behaviors under
+each set of assumptions. In each video, the X and Y axes shows the X and Y
+extents of the arena, with the color showing the density of robots at a given
+(x,y) location.
+
+LEFT: Finite blocks, nest in corner (Lerman et al.)
+
+RIGHT: Using infinite blocks, nest in center (our work)
+
+## Searching robots (Where are robots when they are in the searching state?)
+
+
+{{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/block-acq-explore-locs2D.mp4" >}}
+{{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/block-acq-explore-locs2D.mp4" >}}
+
+
+## Acquisition locations (Where do robots acquire blocks from?)
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/block-acq-locs2D.mp4" >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/block-acq-locs2D.mp4" >}}
+
+
+## Robot interference (Where are robots when they are experiencing interference?)
+
+{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/spatial-interference-locs2D.mp4" >}}
+  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/spatial-interference-locs2D.mp4" >}}
+
+
+## Robot occupancy (Where are robots generally, regardless of what state they are in?)
+
+{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/spatial-dist-pos2D.mp4" >}}
+{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/spatial-dist-pos2D.mp4" >}}
+ee
