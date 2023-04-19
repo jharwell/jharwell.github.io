@@ -119,8 +119,27 @@ approximately constant.
 
 # Effect Of Assumptions On Robot Behavioral Distributions
 
-This section shows the spatial distributions of different robot behaviors under
-each set of assumptions. In each video, the X and Y axes shows the X and Y
+In its simplest form, ODE modeling fundamentally assumes that the modeled
+behaviors are steady-state (additional modeling techniques can be applied to
+help model transient behaviors, as described in the paper). Further, when
+modeling _foraging_ behaviors, spatially symmetric steady-state behavioral
+distributions are more amenable to ODE modeling, because such distributions
+result in robots experiencing events in a non-Poisson way much less frequently
+because the spatial density is roughly uniform. This is why the random (RN)
+block distribution is the easiest to model, and the power law (PL) distribution
+is the most challenging.
+
+The use of the nest in the corner vs. the center is the critical difference
+between the assumptions used in the two models: one results in non-symmetric
+spatial distributions more difficult to model with ODEs, and one results in
+symmetric spatial distributions more amenable to ODE modeling.  The use of
+finite vs. infinite blocks _also_ affects spatial distributions, but to a lesser
+degree: robots still acquire blocks roughly the same fashion in both cases, as
+can be seen below. However, the _rate_ of acquisition differs--an asymmetry in
+time.
+
+The below videos show the spatial distributions of different robot behaviors
+under each set of assumptions. In each video, the X and Y axes shows the X and Y
 extents of the arena, with the color showing the density of robots at a given
 (x,y) location.
 
@@ -128,26 +147,36 @@ LEFT: Finite blocks, nest in corner (Lerman et al.)
 
 RIGHT: Using infinite blocks, nest in center (our work)
 
+
 ## Searching robots (Where are robots when they are in the searching state?)
 
 
 {{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/block-acq-explore-locs2D.mp4" >}}
 {{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/block-acq-explore-locs2D.mp4" >}}
 
+The nest in the corner results in a non-symmetric spatial distribution in steady state.
 
 ## Acquisition locations (Where do robots acquire blocks from?)
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/block-acq-locs2D.mp4" >}}
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/block-acq-locs2D.mp4" >}}
+  {{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/block-acq-locs2D.mp4" >}}
+  {{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/block-acq-locs2D.mp4" >}}
 
+
+Notice that the distribution on the left is _much_ sparser, due to finite
+blocks.
 
 ## Robot interference (Where are robots when they are experiencing interference?)
 
-{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/spatial-interference-locs2D.mp4" >}}
-  {{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/spatial-interference-locs2D.mp4" >}}
+{{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/spatial-interference-locs2D.mp4" >}}
+  {{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/spatial-interference-locs2D.mp4" >}}
+
+The nest in the corner results in a non-symmetric spatial distribution in steady
+state.
 
 
 ## Robot occupancy (Where are robots generally, regardless of what state they are in?)
 
-{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/spatial-dist-pos2D.mp4" >}}
-{{< video autoplay="true" loop="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/spatial-dist-pos2D.mp4" >}}
-ee
+{{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/lerman/spatial-dist-pos2D.mp4" >}}
+{{< video controls="true" class="aligncenter" src="https://media.githubusercontent.com/media/jharwell/jharwell.github.io/master/assets/media/showcase/ode/us/spatial-dist-pos2D.mp4" >}}
+
+The nest in the corner results in a non-symmetric spatial distribution in steady
+state.
