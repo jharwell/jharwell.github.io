@@ -38,7 +38,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 
-- url: https://github.com/jharwellsierra.git
+- url: https://github.com/jharwell/sierra.git
   icon_pack: fab
   icon: github
   name: SIERRA GitHub
@@ -70,10 +70,10 @@ This page contains:
 
   - [ARGoS](http://www.argos-sim.info/index.php)
 
-  - [ROS+Gazebo] (i.e., using [ROS](https://ros.org) with
+  - [ROS1+Gazebo] (i.e., using [ROS1](https://ros.org) with
     [Gazebo](http://gazebosim.org))
 
-  - [ROS+Turtlebot3] (i.e., using [ROS](https://ros.org) with the
+  - [ROS1+Turtlebot3] (i.e., using [ROS1](https://ros.org) with the
     [Turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/))
 
 - A demonstration of SIERRA's ability to visualize simulation results.
@@ -92,8 +92,8 @@ impact on results are measured through a series of trials. SIERRA allows you to
 express this as a research query on the command line and then parses your query
 to make changes to a template input file to generate launch commands and
 experimental inputs to operationalize it. Switching from targeting platform A
-(e.g., ARGoS) to platform B (e.g., ROS+Gazebo) is as easy as changing a a single
-command line argument (assuming your code is setup to handle both ARGoS and ROS
+(e.g., ARGoS) to platform B (e.g., ROS1+Gazebo) is as easy as changing a a single
+command line argument (assuming your code is setup to handle both ARGoS and ROS1
 environments!). Similarly for switching from running on the local machine to
 running on a HPC cluster. SIERRA handles all the "backend" aspects of running
 experiments and allows you to focus on the fun parts--the research itself!
@@ -116,11 +116,11 @@ and on real robots
 
 | Execution Environment     | Supported Platforms |
 | ------------------------- | ------------------- |
-| [SLURM](https://slurm.schedmd.com/documentation.html) | ARGoS, ROS+Gazebo |
-| [Torque/MOAB](https://adaptivecomputing.com/cherry-services/torque-resource-manager) | ARGoS, ROS+Gazebo |
-| ADHOC (suitable for a miscellaneous collection of networked compute nodes for a research group) | ARGoS, ROS+Gazebo |
-| Local machine (for testing) | ARGoS, ROS+Gazebo |
-| [ROS+Turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview) | ROS+Gazebo, ROS+robot |
+| [SLURM](https://slurm.schedmd.com/documentation.html) | ARGoS, ROS1+Gazebo |
+| [Torque/MOAB](https://adaptivecomputing.com/cherry-services/torque-resource-manager) | ARGoS, ROS1+Gazebo |
+| ADHOC (suitable for a miscellaneous collection of networked compute nodes for a research group) | ARGoS, ROS1+Gazebo |
+| Local machine (for testing) | ARGoS, ROS1+Gazebo |
+| [ROS1+Turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview) | ROS1+Gazebo, ROS1+robot |
 
 To add additional execution environments, see the
 [docs](https://sierra.readthedocs.io/en/latest/src/tutorials/plugin/exec_env_plugin.html).
@@ -213,9 +213,9 @@ interface for the below pipeline to automate your research workflow:
 - [ARGoS](https://www.argos-sim.info/index.php) for fast simulation of large
   robot swarms via multiple physics engines.
 
-- [Gazebo](https://www.gazebosim.org) for ROS+Gazebo.
+- [Gazebo](https://www.gazebosim.org) for ROS1+Gazebo.
 
-- [ROS](https://ros.org) for ROS on a real robot.
+- [ROS1](https://ros.org) for ROS1 on a real robot.
 
 To define additional platforms, see the
 [docs](https://sierra.readthedocs.io/en/latest/src/tutorials/plugin/platform_plugin.html).
@@ -260,11 +260,11 @@ via `--no-preserve-seeds`).
 ## Example Template Input Files
 
 > Note: the below are partial template input files to demonstrate SIERRA's
-> capabilities, and are not likely functional as-is with ARGoS or ROS.
+> capabilities, and are not likely functional as-is with ARGoS or ROS1.
 
 The ARGoS `ideal.argos` is based on the ARGoS foraging example
-[here](https://www.argos-sim.info/examples.php). The ROS+Gazebo and
-ROS+Turtlebot3 `turtlebot3_sim.launch` is based on the ROBOTIS Gazebo example
+[here](https://www.argos-sim.info/examples.php). The ROS1+Gazebo and
+ROS1+Turtlebot3 `turtlebot3_sim.launch` is based on the ROBOTIS Gazebo example
 [here](https://github.com/ROBOTIS-GIT/turtlebot3_simulations).
 
 <details> <summary>ARGoS (ideal.argos)</summary>
@@ -402,7 +402,7 @@ ROS+Turtlebot3 `turtlebot3_sim.launch` is based on the ROBOTIS Gazebo example
 </details>
 
 <details>
-  <summary>ROS+Gazebo (turtlebot3_sim.launch)</summary>
+  <summary>ROS1+Gazebo (turtlebot3_sim.launch)</summary>
 
   <?xml version="1.0" ?>
   <rosgazebo-configuration>
@@ -439,7 +439,7 @@ ROS+Turtlebot3 `turtlebot3_sim.launch` is based on the ROBOTIS Gazebo example
 </details>
 
 <details>
-  <summary>ROS+Turtlebot3 (turtlebot3_real.launch)</summary>
+  <summary>ROS1+Turtlebot3 (turtlebot3_real.launch)</summary>
 
   <?xml version="1.0" ?>
   <rosrobot-configuration>
@@ -552,7 +552,7 @@ We obtain the following for experiment 0 (which has 1 robot):
 
 ## Ros+Gazebo input files after SIERRA processing
 
-Using the following SIERRA command with the above ROS+Gazebo template:
+Using the following SIERRA command with the above ROS1+Gazebo template:
 
     sierra-cli \
         --platform=platform.rosgazebo \
@@ -611,19 +611,19 @@ We obtain the following for experiment 0 (1 robot):
   also draw them randomly from the specified scenario dimensions (`10x10`
   here).
 
-- Since Gazebo+ROS doesn't have a way to say "Stop running after this long",
+- Since Gazebo+ROS1 doesn't have a way to say "Stop running after this long",
   SIERRA inserts a timekeeper node to provide this functionality.
 
-- SIERRA can utilize the ROS parameter server when making changes to the
+- SIERRA can utilize the ROS1 parameter server when making changes to the
   template input file (all parameters under `<launch>`), or write to a separate
   `.params` file (all parameters under `<params>`) as shown here. This is useful
-  for sharing code between ROS and other robotic platforms which require
+  for sharing code between ROS1 and other robotic platforms which require
   strictly XML parameters.
 
 
 ## Ros+Turtlebot3 input files after SIERRA processing
 
-Using the following SIERRA command with the above ROS+Turtlebot3 template:
+Using the following SIERRA command with the above ROS1+Turtlebot3 template:
 
     sierra-cli \
         --platform=platform.rosrobot \
