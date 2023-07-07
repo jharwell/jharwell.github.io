@@ -11,4 +11,4 @@ chmod -R 755 public/ # Not set by default on UMN machines apparently
 
 # Delete all files on the UMN machine under ~/.www that don't
 # currently exist here--they are a result of updates in hugo.
-rsync -avh public/ -e ssh harwe006@csel-kh1250-03.cselabs.umn.edu:.www/ --delete
+rsync -avh public/ -e ssh harwe006@csel-kh1250-14.cselabs.umn.edu:.www/ --delete

@@ -15,8 +15,12 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
-  name = "Mathematical modeling"
+  name = "Mathematical Modeling"
   description = "Stochastic processes, Differential Equations, Graphs, Matroids"
+
+[[feature]]
+  name = "Data Structures"
+  description = "Graphs, trees, R-trees, Poisson queues, heaps, C++ STL"
 
 [[feature]]
   name = "Swarm Intelligence"
@@ -32,11 +36,15 @@ subtitle = ""
 
 [[feature]]
   name = "Platforms"
-  description = "Linux, RTEMS, HPC Clusters, ARGoS, ROS"
+  description = "Linux, RTEMS, SLURM, PBS, ARGoS, ROS1, TurtleBot3"
 
 [[feature]]
   name = "Software"
-  description = "Boost, OpenMP, MPI, LLVM, VTune, git, cmake"
+  description = "Boost, OpenMP, MPI, LLVM, VTune, git, cmake, pandas, matplotlib"
+
+[[feature]]
+  name = "Embedded Systems"
+  description = "SPARC LEON2, Arduino, Raspberry PI, ARM Cortex-M7"
 
 # Uncomment to use emoji icons.
 # [[feature]]
