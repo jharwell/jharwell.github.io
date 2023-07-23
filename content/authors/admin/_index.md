@@ -66,7 +66,7 @@ social:
 
 - icon: cv
   icon_pack: ai
-  link: media/john-harwell-academic-cv-v36.pdf
+  link: media/john-harwell-academic-cv-v41.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
