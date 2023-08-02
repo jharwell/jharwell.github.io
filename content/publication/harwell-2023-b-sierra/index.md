@@ -43,7 +43,7 @@ links:
   name: Docs
 
 - name: PDF
-  url: https://ieeexplore.ieee.org/document/XXXX
+  url: https://ieeexplore.ieee.org/document/10161279
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

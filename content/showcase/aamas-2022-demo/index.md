@@ -43,7 +43,7 @@ links:
   icon: github
   name: SIERRA GitHub
 
-- url: https://sierra.readthedocs.io/en/latest
+- url: https://sierra.readthedocs.io/en/master
   icon_pack: fa
   icon: book
   name: SIERRA Docs
@@ -58,7 +58,7 @@ A more detailed explanation of the SIERRA framework presented in
 [AAMAS2022]({{<ref "publication/harwell-2022-a-SIERRA">}}).
 
 Note: The version of SIERRA demonstrated here is older than the current SIERRA
-version--see the [docs](https://sierra.readthedocs.io/en/latest)
+version--see the [docs](https://sierra.readthedocs.io/en/master)
 for the latest overview.
 
 This page contains:
@@ -110,9 +110,9 @@ configuration/# of robots).
 
 SIERRA supports multiple HPC environments for execution of experiments in
 simulation
-([docs](https://sierra.readthedocs.io/en/latest/src/exec_env/hpc.html))
+([docs](https://sierra.readthedocs.io/en/master/src/exec_env/hpc.html))
 and on real robots
-([docs](https://sierra.readthedocs.io/en/latest/src/exec_env/robots.html)):
+([docs](https://sierra.readthedocs.io/en/master/src/exec_env/robots.html)):
 
 | Execution Environment     | Supported Platforms |
 | ------------------------- | ------------------- |
@@ -123,7 +123,7 @@ and on real robots
 | [ROS1+Turtlebot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview) | ROS1+Gazebo, ROS1+robot |
 
 To add additional execution environments, see the
-[docs](https://sierra.readthedocs.io/en/latest/src/tutorials/plugin/exec_env_plugin.html).
+[docs](https://sierra.readthedocs.io/en/master/src/tutorials/plugin/exec_env_plugin.html).
 
 ## 3. Processing experiment results
 
@@ -218,7 +218,7 @@ interface for the below pipeline to automate your research workflow:
 - [ROS1](https://ros.org) for ROS1 on a real robot.
 
 To define additional platforms, see the
-[docs](https://sierra.readthedocs.io/en/latest/src/tutorials/plugin/platform_plugin.html).
+[docs](https://sierra.readthedocs.io/en/master/src/tutorials/plugin/platform_plugin.html).
 
 
 # SIERRA Demonstration Context
@@ -766,4 +766,4 @@ And publications:
 -  [IJCAI2019]({{<ref "publication/harwell-2019-a-metrics">}})
 -  [AAMAS2020]({{<ref "publication/harwell-2020-a-demystify">}})
 -  [TRO2021]({{<ref "publication/harwell-2021-a-metrics">}})
--  [AURO2022]({{<ref "publication/harwell-2022-b-ODE">}})
+-  [AURO2023]({{<ref "publication/harwell-2023-c-ode">}})

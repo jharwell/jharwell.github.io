@@ -89,8 +89,8 @@ central location):
   behavior of swarms in which robot behaviors are not Poisson distributed? If so
   , under what conditions? Short answer: _yes_, IF you have a general
   first-principle model then can do this in a variety of foraging
-  scenarios for both large and small swarms. Long answer: [AURO2022]({{<ref
-  "publication/harwell-2022-b-ODE">}}).
+  scenarios for both large and small swarms. Long answer: [AURO2023]({{<ref
+  "publication/harwell-2023-c-ode">}}).
 
 This project relies heavily on [SIERRA]({{<ref "project/sierra">}}) for running
 experiments and processing results.
