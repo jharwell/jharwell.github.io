@@ -40,7 +40,11 @@ jobs:
       - name: Install Hugo CLI
         run: |
           sudo apt-get install ca-certificates
-          curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest \
+
+          # [2024-2-27] Pin this to v0.122.0 until the academic theme is updated
+          # to work with >= v0.123.0, which it crashes with currently.
+          # curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest \
+          curl -s https://api.github.com/repos/gohugoio/hugo/releases/tags/v0.122.0 \
           | grep "browser_download_url.*hugo_extended.*amd64\.deb" \
           | cut -d : -f 2,3 \
           | tr -d \" \

@@ -54,6 +54,10 @@ subtitle = ""
      tag = "ROS"
 
     [[content.filter_button]]
+     name = "Woodworking"
+     tag = "Woodworking"
+
+    [[content.filter_button]]
      name = "All"
      tag = "*"
 

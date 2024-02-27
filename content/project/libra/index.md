@@ -35,7 +35,7 @@ links:
   icon_pack: fab
   icon: github
 
-- url: https://libra2.readthedocs.io/en/master
+- url: https://https://jharwell.github.io/libra/
   icon_pack: fa
   icon: book
   name: 'Docs'

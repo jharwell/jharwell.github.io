@@ -112,6 +112,8 @@ modeling, complexity theory, robotics, and swarm intelligence. Broadly:
 
 His PhD thesis is [here]({{<ref "publication/harwell-2022-b-thesis">}}).
 
+In his free time, he enjoys playing his guitars, woodworking, and meditating.
+
 <!-- His PhD thesis developed new theoretical -->
 <!-- tools for measuring, modeling, controlling, and (critically) predicting the -->
 <!-- behavior of bio-inspired multi-agent systems from small (≤ 5 agents) to large (≥ -->
