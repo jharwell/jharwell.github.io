@@ -6,7 +6,6 @@ summary: "A large wall mounted coatrack for the mudroom"
 authors: []
 tags:
 - Woodworking
-- Active
 
 weight: 1
 

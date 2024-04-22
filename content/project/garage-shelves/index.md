@@ -6,7 +6,6 @@ summary: "Slim, functional garage shelves"
 authors: []
 tags:
 - Woodworking
-- Active
 
 weight: 1
 
@@ -46,6 +45,13 @@ general design from [here](https://dadand.com/diy-2x4-shelving/), decreasing the
 overall shelf depth to fit along the extra space on the side of my
 garage. Different from the workbench, I used OSB for the shelves.
 
+# Pictures
+
+|                                                                      |                                                                                           |
+|:--------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|
+| {{< figure library="false" src="finished-empty.JPG" width="100%" >}} | {{< figure library="false" src="wall-bolting1.JPG"  class="pull-right" width="100%" >}}   |
+| Stained and bolted to wall.                                          | L-brackets of some sort from Menard's used to attach each side of shelves to garage wall. |
+
 # Lessons Learned
 
 ## Measuring and Cutting
@@ -54,7 +60,7 @@ garage. Different from the workbench, I used OSB for the shelves.
   measuring for the depth of the shelf. I didn't, so my shelves are 1" short in
   the back, and only cover the first 1/2" of the 2x4 support. It's not a big
   deal, because the shelves are still well supported and anchored, but it is an
-  aesthetic faux pas.h
+  aesthetic faux pas.
 
 - A multi-tool is invaluable for getting perfectly square notches in sheet
   goods: 98% of the notches are cut with a circular saw, and the nice corner
@@ -62,3 +68,12 @@ garage. Different from the workbench, I used OSB for the shelves.
 
 - Sanding OSB is more difficult than plywood to sand, because a some of the
   little bits of wood come off and get stuck in the orbital sander.
+
+## Finishing
+
+- When possible, sand and finish everything BEFORE assembly. For many projects,
+  doing it after assembly is required, esp. if there is no way to do a "dry fit"
+  which can be easily undone before final assembly. But for this project,
+  instead of permanently assembling and THEN staining, it would have been much
+  easier to stain then assemble. For additional sanding/cutting/etc that I had
+  to do, I could have done touch-ups as needed.

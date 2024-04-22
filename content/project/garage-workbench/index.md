@@ -6,7 +6,6 @@ summary: "A functional garage workbench with shelf and drawers"
 authors: []
 tags:
 - Woodworking
-- Active
 
 weight: 1
 
