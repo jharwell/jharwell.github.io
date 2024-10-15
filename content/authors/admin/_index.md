@@ -11,6 +11,9 @@ role: Researcher and Engineer
 # Organizations/Affiliations
 organizations:
 
+- name: EpiSci
+  url: https://www.episci.com
+
 - name: Satelles
   url: https://www.satelles.com
 
@@ -84,15 +87,13 @@ user_groups:
 - Visitors
 ---
 
-Dr. Harwell is an experienced emebedded systems engineer researcher specializing
-in multi-agent systems and robotics. His embedded experience spans many
-different types of hardware: custom spacecraft avionics, commercial chips such
-as ARM Cortex-M7, as well as custom SoCs. He has extensive experience
-architecting, building, and debugging software in embedded systems, from
-bare-metal to RTOS to embedded Linux, programming in C,C++, and assembly. He is
-strongly committed to bringing elements of software engineering into research
-and development in order to accelerate progress and reproducibility through
-automation and better tooling.
+Dr. Harwell is an experienced emebedded systems engineer and researcher
+specializing in multi-agent systems and robotics. His embedded experience spans
+many different types of hardware: custom spacecraft avionics, commercial
+chips,and custom SoCs. He has extensive experience architecting, and building
+software in embedded systems, from bare-metal to RTOS to embedded Linux. He is
+committed to bringing elements of software engineering into research in order to
+accelerate progress and reproducibility through automation and better tooling.
 
 His research interests lie in the investigation of behavior in interacting
 multi-agent systems, at the intersection of task allocation, mathematical
@@ -113,34 +114,3 @@ modeling, complexity theory, robotics, and swarm intelligence. Broadly:
 His PhD thesis is [here]({{<ref "publication/harwell-2022-b-thesis">}}).
 
 In his free time, he enjoys playing his guitars, woodworking, and meditating.
-
-<!-- His PhD thesis developed new theoretical -->
-<!-- tools for measuring, modeling, controlling, and (critically) predicting the -->
-<!-- behavior of bio-inspired multi-agent systems from small (≤ 5 agents) to large (≥ -->
-<!-- 10, 000 agents across scales, and targeted applications to foraging and -->
-<!-- construction tasks in dynamic, dangerous, and unknown environments. -->
-
-<!-- More specifically: -->
-
-<!-- 1. Behavioral modeling and analysis: Modeling explicit and implicit information -->
-<!--    flow in multi-agent systems, information latency. Prediction of collective -->
-<!--    behavior from first principles on non-trivial problems such as foraging, for -->
-<!--    both memory-less agents and agents with finite memory (forward -->
-<!--    problem). Deriving agent controllers to obtain a desired collective behavior -->
-<!--    (inverse problem). -->
-
-<!-- 2. Self-healing systems: Mitigation of malfunctioning sensors/actuators, -->
-<!--    autonomous convergence recognition. Robust anomaly recognition: -->
-<!--    task-independent identification of misbehaving individuals in the presence of -->
-<!--    dynamic workloads. Rebalancing task distributions after handling anomalies or -->
-<!--    whet tasks change/new tasks are dynamically introduced. -->
-
-<!-- 3. Engineering better multi-agent systems: How to create insightful measurements -->
-<!--    of measurements of system behavior such as self-organization, scalability, -->
-<!--    convergence, robustness, etc., and how these can be made prescriptive so they -->
-<!--    can be used in automated design methods. -->
-
-<!-- 4. Long-term multi-robot system autonomy: How to increase the ability of these -->
-<!--    systems to operate for long periods of time without/with minimal human -->
-<!--    intervention or supervision. Optimal foraging theory, control barrier -->
-<!--    function approaches, optimization of battery usage under uncertainty. -->

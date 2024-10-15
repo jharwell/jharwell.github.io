@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-hugo server --disableFastRender -v
+hugo server --disableFastRender --logLevel info

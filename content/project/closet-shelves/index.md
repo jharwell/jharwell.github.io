@@ -6,12 +6,12 @@ summary: "A set of shelves for a small lean-in closet"
 authors: []
 tags:
 - Woodworking
-- Active
+- Inactive
 
 weight: 1
 
 categories: []
-date: 2024-4-2T12:07:58-06:00
+date: 2024-04-02T12:07:58-06:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

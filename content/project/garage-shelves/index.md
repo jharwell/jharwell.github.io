@@ -10,7 +10,7 @@ tags:
 weight: 1
 
 categories: []
-date: 2024-1-29T12:07:58-06:00
+date: 2024-01-29T12:07:58-06:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
