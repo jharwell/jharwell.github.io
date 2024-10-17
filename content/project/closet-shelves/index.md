@@ -55,6 +55,8 @@ single solid board.
 | The joining jig in use. Having 9 holes via 48" of board made all of my edge-joints line up perfectly for a nice tight fit. | Finished, and installed in the closet!                                                 |
 |                                                                                                                            |                                                                                        |
 
+# Lessons Learned
+
 ## Materials
 
 - When selecting materials to be used in edge-joined shelves, pick boards of the
