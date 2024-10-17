@@ -43,6 +43,13 @@ jobs:
 
           # [2024-2-27] Pin this to v0.122.0 until the academic theme is updated
           # to work with >= v0.123.0, which it crashes with currently.
+          #
+          # [2024-10-16] Still keep this pinned, because the new hugo blox is
+          # still not (imo) ready for prime time. Things like max width of
+          # content, table of contents sidebars, etc. don't work out of the box
+          # and don't appear configurable according to anything I could find
+          # online.
+
           # curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest \
           curl -s https://api.github.com/repos/gohugoio/hugo/releases/tags/v0.122.0 \
           | grep "browser_download_url.*hugo_extended.*amd64\.deb" \
@@ -68,7 +75,7 @@ jobs:
             --minify \
             --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
@@ -82,4 +89,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
