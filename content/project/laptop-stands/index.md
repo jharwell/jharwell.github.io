@@ -79,6 +79,18 @@ which was passable for the garage.
   you can sand things down without making the piece too thin. This is especially
   critical for slabs which are ultimately intended to fit into grooves/dados.
 
+- When cutting, raise the blade to its full height, contrary to the usual
+  guidance, because that will give the crack/chip/tearout prone glued plywood
+  maximum support, because the blade will be pressing and cutting into it at 90
+  degress, rather than something less.
+
+# Assembly
+
+- A dry fit is absolutely essential. Not just lightly clamping things together,
+  because I'm afraid that the pieces will not come apart without breaking. You
+  need a *full* dry fit to make sure all the dados/grooves line up with the
+  width of the shelf. Failure to do this results in stands which are off kilter
+  and have to be sanded until they are mostly square again.
 
 # Staining
 

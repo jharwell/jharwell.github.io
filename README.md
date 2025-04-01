@@ -1,196 +1,292 @@
-<img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565">
+[bep]: https://github.com/bep
+[bugs]: https://github.com/gohugoio/hugo/issues?q=is%3Aopen+is%3Aissue+label%3ABug
+[contributing]: CONTRIBUTING.md
+[create a proposal]: https://github.com/gohugoio/hugo/issues/new?labels=Proposal%2C+NeedsTriage&template=feature_request.md
+[documentation repository]: https://github.com/gohugoio/hugoDocs
+[documentation]: https://gohugo.io/documentation
+[dragonfly bsd, freebsd, netbsd, and openbsd]: https://gohugo.io/installation/bsd
+[forum]: https://discourse.gohugo.io
+[friends]: https://github.com/gohugoio/hugo/graphs/contributors
+[go]: https://go.dev/
+[hugo modules]: https://gohugo.io/hugo-modules/
+[installation]: https://gohugo.io/installation
+[issue queue]: https://github.com/gohugoio/hugo/issues
+[linux]: https://gohugo.io/installation/linux
+[macos]: https://gohugo.io/installation/macos
+[prebuilt binary]: https://github.com/gohugoio/hugo/releases/latest
+[requesting help]: https://discourse.gohugo.io/t/requesting-help/9132
+[spf13]: https://github.com/spf13
+[static site generator]: https://en.wikipedia.org/wiki/Static_site_generator
+[support]: https://discourse.gohugo.io
+[themes]: https://themes.gohugo.io/
+[twitter]: https://twitter.com/gohugoio
+[website]: https://gohugo.io
+[windows]: https://gohugo.io/installation/windows
 
-A Fast and Flexible Static Site Generator built with love by [bep](https://github.com/bep), [spf13](http://spf13.com/) and [friends](https://github.com/gohugoio/hugo/graphs/contributors) in [Go][].
+<a href="https://gohugo.io/"><img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="565"></a>
 
-[Website](https://gohugo.io) |
-[Forum](https://discourse.gohugo.io) |
-[Documentation](https://gohugo.io/getting-started/) |
-[Installation Guide](https://gohugo.io/getting-started/installing/) |
-[Contribution Guide](CONTRIBUTING.md) |
-[Twitter](https://twitter.com/gohugoio)
+A fast and flexible static site generator built with love by [bep], [spf13], and [friends] in [Go].
+
+---
 
 [![GoDoc](https://godoc.org/github.com/gohugoio/hugo?status.svg)](https://godoc.org/github.com/gohugoio/hugo)
 [![Tests on Linux, MacOS and Windows](https://github.com/gohugoio/hugo/workflows/Test/badge.svg)](https://github.com/gohugoio/hugo/actions?query=workflow%3ATest)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gohugoio/hugo)](https://goreportcard.com/report/github.com/gohugoio/hugo)
 
+[Website] | [Installation] | [Documentation] | [Support] | [Contributing] | <a rel="me" href="https://fosstodon.org/@gohugoio">Mastodon</a>
+
 ## Overview
 
-Hugo is a static HTML and CSS website generator written in [Go][].
-It is optimized for speed, ease of use, and configurability.
-Hugo takes a directory with content and templates and renders them into a full HTML website.
+Hugo is a [static site generator] written in [Go], optimized for speed and designed for flexibility. With its advanced templating system and fast asset pipelines, Hugo renders a complete site in seconds, often less.
 
-Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.
-This works well for shared hosts and other systems where you don’t have a privileged account.
+Due to its flexible framework, multilingual support, and powerful taxonomy system, Hugo is widely used to create:
 
-Hugo renders a typical website of moderate size in a fraction of a second.
-A good rule of thumb is that each piece of content renders in around 1 millisecond.
+- Corporate, government, nonprofit, education, news, event, and project sites
+- Documentation sites
+- Image portfolios
+- Landing pages
+- Business, professional, and personal blogs
+- Resumes and CVs
 
-Hugo is designed to work well for any kind of website including blogs, tumbles, and docs.
+Use Hugo's embedded web server during development to instantly see changes to content, structure, behavior, and presentation. Then deploy the site to your host, or push changes to your Git provider for automated builds and deployment.
 
-#### Supported Architectures
+Hugo's fast asset pipelines include:
 
-Currently, we provide pre-built Hugo binaries for Windows, Linux, FreeBSD, NetBSD, DragonFly BSD, Open BSD, macOS (Darwin), and [Android](https://gist.github.com/bep/a0d8a26cf6b4f8bc992729b8e50b480b) for x64, i386 and ARM architectures.
+- CSS bundling &ndash; transpilation (Sass), tree shaking, minification, source maps, SRI hashing, and PostCSS integration
+- JavaScript bundling &ndash; transpilation (TypeScript, JSX), tree shaking, minification, source maps, and SRI hashing
+- Image processing &ndash; convert, resize, crop, rotate,  adjust colors, apply filters, overlay text and images, and extract EXIF data
 
-Hugo may also be compiled from source wherever the Go compiler tool chain can run, e.g. for other operating systems including Plan 9 and Solaris.
+And with [Hugo Modules], you can share content, assets, data, translations, themes, templates, and configuration with other projects via public or private Git repositories.
 
-**Complete documentation is available at [Hugo Documentation](https://gohugo.io/getting-started/).**
+## Sponsors
 
-## Choose How to Install
+<p>&nbsp;</p>
+<p float="left">
+  <a href="https://www.linode.com/?utm_campaign=hugosponsor&utm_medium=banner&utm_source=hugogithub" target="_blank"><img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/assets/images/sponsors/linode-logo_standard_light_medium.png" width="200" alt="Linode"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://cloudcannon.com/hugo-cms/?utm_campaign=HugoSponsorship&utm_source=sponsor&utm_content=gohugo" target="_blank"><img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/assets/images/sponsors/cloudcannon-blue.svg" width="220" alt="CloudCannon"></a>
+<p>&nbsp;</p>
 
-If you want to use Hugo as your site generator, simply install the Hugo binaries.
-The Hugo binaries have no external dependencies.
+## Installation
 
-To contribute to the Hugo source code or documentation, you should [fork the Hugo GitHub project](https://github.com/gohugoio/hugo#fork-destination-box) and clone it to your local machine.
+Install Hugo from a [prebuilt binary], package manager, or package repository. Please see the installation instructions for your operating system:
 
-Finally, you can install the Hugo source code with `go`, build the binaries yourself, and run Hugo that way.
-Building the binaries is an easy task for an experienced `go` getter.
+- [macOS]
+- [Linux]
+- [Windows]
+- [DragonFly BSD, FreeBSD, NetBSD, and OpenBSD]
 
-### Install Hugo as Your Site Generator (Binary Install)
+## Build from source
 
-Use the [installation instructions in the Hugo documentation](https://gohugo.io/getting-started/installing/).
+Hugo is available in two editions: standard and extended. With the extended edition you can:
 
-### Build and Install the Binaries from Source (Advanced Install)
+- Encode to the WebP format when processing images. You can decode WebP images with either edition.
+- Transpile Sass to CSS using the embedded LibSass transpiler. The extended edition is not required to use the Dart Sass transpiler.
 
-#### Prerequisite Tools
+Prerequisites to build Hugo from source:
 
-* [Git](https://git-scm.com/)
-* [Go (we test it with the last 2 major versions)](https://golang.org/dl/)
+- Standard edition: Go 1.20 or later
+- Extended edition: Go 1.20 or later, and GCC
 
-#### Fetch from GitHub
+Build the standard edition:
 
-Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is to clone Hugo in a directory outside of `GOPATH`, as in the following example:
-
-```bash
-mkdir $HOME/src
-cd $HOME/src
-git clone https://github.com/gohugoio/hugo.git
-cd hugo
-go install
+```text
+go install github.com/gohugoio/hugo@latest
 ```
 
-**If you are a Windows user, substitute the `$HOME` environment variable above with `%USERPROFILE%`.**
+Build the extended edition:
 
-If you want to compile with Sass/SCSS support use `--tags extended` and make sure `CGO_ENABLED=1` is set in your go environment. If you don't want to have CGO enabled, you may use the following command to temporarily enable CGO only for hugo compilation:
-
-```bash
-CGO_ENABLED=1 go install --tags extended
+```text
+CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 ```
 
-## The Hugo Documentation
+## Documentation
 
-The Hugo documentation now lives in its own repository, see https://github.com/gohugoio/hugoDocs. But we do keep a version of that documentation as a `git subtree` in this repository. To build the sub folder `/docs` as a Hugo site, you need to clone this repo:
+Hugo's [documentation] includes installation instructions, a quick start guide, conceptual explanations, reference information, and examples.
 
-```bash
-git clone git@github.com:gohugoio/hugo.git
-```
-## Contributing to Hugo
+Please submit documentation issues and pull requests to the [documentation repository].
+
+## Support
+
+Please **do not use the issue queue** for questions or troubleshooting. Unless you are certain that your issue is a software defect, use the [forum].
+
+Hugo’s [forum] is an active community of users and developers who answer questions, share knowledge, and provide examples. A quick search of over 20,000 topics will often answer your question. Please be sure to read about [requesting help] before asking your first question.
+
+## Contributing
+
+You can contribute to the Hugo project by:
+
+- Answering questions on the [forum]
+- Improving the [documentation]
+- Monitoring the [issue queue]
+- Creating or improving [themes]
+- Squashing [bugs]
+
+Please submit documentation issues and pull requests to the [documentation repository].
+
+If you have an idea for an enhancement or new feature, create a new topic on the [forum] in the "Feature" category. This will help you to:
+
+- Determine if the capability already exists
+- Measure interest
+- Refine the concept
+
+If there is sufficient interest, [create a proposal]. Do not submit a pull request until the project lead accepts the proposal.
 
 For a complete guide to contributing to Hugo, see the [Contribution Guide](CONTRIBUTING.md).
 
-We welcome contributions to Hugo of any kind including documentation, themes,
-organization, tutorials, blog posts, bug reports, issues, feature requests,
-feature implementations, pull requests, answering questions on the forum,
-helping to manage issues, etc.
-
-The Hugo community and maintainers are [very active](https://github.com/gohugoio/hugo/pulse/monthly) and helpful, and the project benefits greatly from this activity.
-
-### Asking Support Questions
-
-We have an active [discussion forum](https://discourse.gohugo.io) where users and developers can ask questions.
-Please don't use the GitHub issue tracker to ask questions.
-
-### Reporting Issues
-
-If you believe you have found a defect in Hugo or its documentation, use
-the GitHub issue tracker to report the problem to the Hugo maintainers.
-If you're not sure if it's a bug or not, start by asking in the [discussion forum](https://discourse.gohugo.io).
-When reporting the issue, please provide the version of Hugo in use (`hugo version`).
-
-### Submitting Patches
-
-The Hugo project welcomes all contributors and contributions regardless of skill or experience level.
-If you are interested in helping with the project, we will help you with your contribution.
-Hugo is a very active project with many contributions happening daily.
-
-We want to create the best possible product for our users and the best contribution experience for our developers,
-we have a set of guidelines which ensure that all contributions are acceptable.
-The guidelines are not intended as a filter or barrier to participation.
-If you are unfamiliar with the contribution process, the Hugo team will help you and teach you how to bring your contribution in accordance with the guidelines.
-
-For a complete guide to contributing code to Hugo, see the [Contribution Guide](CONTRIBUTING.md).
-
-[![Analytics](https://ga-beacon.appspot.com/UA-7131036-6/hugo/readme)](https://github.com/igrigorik/ga-beacon)
-
-[Go]: https://golang.org/
-[Hugo Documentation]: https://gohugo.io/overview/introduction/
-
 ## Dependencies
 
-Hugo stands on the shoulder of many great open source libraries, in lexical order:
+Hugo stands on the shoulders of great open source libraries. Run `hugo env --logLevel info` to display a list of dependencies.
 
- | Dependency  | License |
- | :------------- | :------------- |
- | [github.com/alecthomas/chroma](https://github.com/alecthomas/chroma) | MIT License |
- | [github.com/armon/go-radix](https://github.com/armon/go-radix) | MIT License |
- | [github.com/aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) | Apache License 2.0 |
- | [github.com/bep/debounce](https://github.com/bep/debounce) | MIT License |
- | [github.com/bep/gitmap](https://github.com/bep/gitmap) | MIT License |
- | [github.com/bep/golibsass](https://github.com/bep/golibsass) | MIT License |
- | [github.com/bep/tmc](https://github.com/bep/tmc) | MIT License |
- | [github.com/BurntSushi/locker](https://github.com/BurntSushi/locker) | The Unlicense |
- | [github.com/BurntSushi/toml](https://github.com/BurntSushi/toml) | MIT License |
- | [github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man) | MIT License |
- | [github.com/danwakefield/fnmatch](https://github.com/danwakefield/fnmatch) | BSD 2-Clause "Simplified" License |
- | [github.com/disintegration/gift](https://github.com/disintegration/gift) | MIT License |
- | [github.com/dustin/go-humanize](https://github.com/dustin/go-humanize) | MIT License |
- | [github.com/fsnotify/fsnotify](https://github.com/fsnotify/fsnotify) | BSD 3-Clause "New" or "Revised" License |
- | [github.com/gobwas/glob](https://github.com/gobwas/glob) | MIT License |
- | [github.com/gorilla/websocket](https://github.com/gorilla/websocket) | BSD 2-Clause "Simplified" License |
- | [github.com/hashicorp/golang-lru](https://github.com/hashicorp/golang-lru) | Mozilla Public License 2.0 |
- | [github.com/hashicorp/hcl](https://github.com/hashicorp/hcl) | Mozilla Public License 2.0 |
- | [github.com/jdkato/prose](https://github.com/jdkato/prose) | MIT License |
- | [github.com/kr/pretty](https://github.com/kr/pretty) | MIT License |
- | [github.com/kyokomi/emoji](https://github.com/kyokomi/emoji) | MIT License |
- | [github.com/magiconair/properties](https://github.com/magiconair/properties) | BSD 2-Clause "Simplified" License |
- | [github.com/markbates/inflect](https://github.com/markbates/inflect) | MIT License |
- | [github.com/mattn/go-isatty](https://github.com/mattn/go-isatty) | MIT License |
- | [github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth) | MIT License |
- | [github.com/miekg/mmark](https://github.com/miekg/mmark) | Simplified BSD License |
- | [github.com/mitchellh/hashstructure](https://github.com/mitchellh/hashstructure) | MIT License |
- | [github.com/mitchellh/mapstructure](https://github.com/mitchellh/mapstructure) | MIT License |
- | [github.com/muesli/smartcrop](https://github.com/muesli/smartcrop) | MIT License |
- | [github.com/nicksnyder/go-i18n](https://github.com/nicksnyder/go-i18n) | MIT License |
- | [github.com/niklasfasching/go-org](https://github.com/niklasfasching/go-org) | MIT License |
- | [github.com/olekukonko/tablewriter](https://github.com/olekukonko/tablewriter) | MIT License |
- | [github.com/pelletier/go-toml](https://github.com/pelletier/go-toml) | MIT License |
- | [github.com/pkg/errors](https://github.com/pkg/errors) | BSD 2-Clause "Simplified" License |
- | [github.com/PuerkitoBio/purell](https://github.com/PuerkitoBio/purell) | BSD 3-Clause "New" or "Revised" License |
- | [github.com/PuerkitoBio/urlesc](https://github.com/PuerkitoBio/urlesc) | BSD 3-Clause "New" or "Revised" License |
- | [github.com/rogpeppe/go-internal](https://github.com/rogpeppe/go-internal) | BSD 3-Clause "New" or "Revised" License |
- | [github.com/russross/blackfriday](https://github.com/russross/blackfriday)  | Simplified BSD License |
- | [github.com/rwcarlsen/goexif](https://github.com/rwcarlsen/goexif) | BSD 2-Clause "Simplified" License |
- | [github.com/spf13/afero](https://github.com/spf13/afero) | Apache License 2.0 |
- | [github.com/spf13/cast](https://github.com/spf13/cast) | MIT License |
- | [github.com/spf13/cobra](https://github.com/spf13/cobra) | Apache License 2.0 |
- | [github.com/spf13/fsync](https://github.com/spf13/fsync) | MIT License |
- | [github.com/spf13/jwalterweatherman](https://github.com/spf13/jwalterweatherman) | MIT License |
- | [github.com/spf13/pflag](https://github.com/spf13/pflag) | BSD 3-Clause "New" or "Revised" License |
- | [github.com/spf13/viper](https://github.com/spf13/viper) | MIT License |
- | [github.com/tdewolff/minify](https://github.com/tdewolff/minify) | MIT License |
- | [github.com/tdewolff/parse](https://github.com/tdewolff/parse) | MIT License |
- | [github.com/yuin/goldmark](https://github.com/yuin/goldmark) | MIT License |
- | [github.com/yuin/goldmark-highlighting](https://github.com/yuin/goldmark-highlighting) | MIT License |
- | [go.opencensus.io](https://go.opencensus.io) | Apache License 2.0 |
- | [go.uber.org/atomic](https://go.uber.org/atomic) | MIT License |
- | [gocloud.dev](https://gocloud.dev) | Apache License 2.0 |
- | [golang.org/x/image](https://golang.org/x/image) | BSD 3-Clause "New" or "Revised" License |
- | [golang.org/x/net](https://golang.org/x/net) | BSD 3-Clause "New" or "Revised" License |
- | [golang.org/x/oauth2](https://golang.org/x/oauth2) | BSD 3-Clause "New" or "Revised" License |
- | [golang.org/x/sync](https://golang.org/x/sync) | BSD 3-Clause "New" or "Revised" License |
- | [golang.org/x/sys](https://golang.org/x/sys) | BSD 3-Clause "New" or "Revised" License |
- | [golang.org/x/text](https://golang.org/x/text) | BSD 3-Clause "New" or "Revised" License |
- | [golang.org/x/xerrors](https://golang.org/x/xerrors) | BSD 3-Clause "New" or "Revised" License |
- | [google.golang.org/api](https://google.golang.org/api) | BSD 3-Clause "New" or "Revised" License |
- | [google.golang.org/genproto](https://google.golang.org/genproto) | Apache License 2.0 |
- | [gopkg.in/ini.v1](https://gopkg.in/ini.v1) | Apache License 2.0 |
- | [gopkg.in/yaml.v2](https://gopkg.in/yaml.v2) | Apache License 2.0 |
+<details>
+<summary>See current dependencies</summary>
+
+```text
+cloud.google.com/go/compute/metadata="v0.2.3"
+cloud.google.com/go/iam="v1.1.3"
+cloud.google.com/go/storage="v1.31.0"
+cloud.google.com/go="v0.110.8"
+github.com/Azure/azure-sdk-for-go/sdk/azcore="v1.7.0"
+github.com/Azure/azure-sdk-for-go/sdk/azidentity="v1.3.0"
+github.com/Azure/azure-sdk-for-go/sdk/internal="v1.3.0"
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob="v1.1.0"
+github.com/Azure/go-autorest/autorest/to="v0.4.0"
+github.com/AzureAD/microsoft-authentication-library-for-go="v1.0.0"
+github.com/BurntSushi/locker="v0.0.0-20171006230638-a6e239ea1c69"
+github.com/PuerkitoBio/purell="v1.1.1"
+github.com/PuerkitoBio/urlesc="v0.0.0-20170810143723-de5bf2ad4578"
+github.com/alecthomas/chroma/v2="v2.11.1"
+github.com/armon/go-radix="v1.0.0"
+github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream="v1.4.11"
+github.com/aws/aws-sdk-go-v2/config="v1.18.32"
+github.com/aws/aws-sdk-go-v2/credentials="v1.13.31"
+github.com/aws/aws-sdk-go-v2/feature/ec2/imds="v1.13.7"
+github.com/aws/aws-sdk-go-v2/feature/s3/manager="v1.11.76"
+github.com/aws/aws-sdk-go-v2/internal/configsources="v1.1.37"
+github.com/aws/aws-sdk-go-v2/internal/endpoints/v2="v2.4.31"
+github.com/aws/aws-sdk-go-v2/internal/ini="v1.3.38"
+github.com/aws/aws-sdk-go-v2/internal/v4a="v1.1.0"
+github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding="v1.9.12"
+github.com/aws/aws-sdk-go-v2/service/internal/checksum="v1.1.32"
+github.com/aws/aws-sdk-go-v2/service/internal/presigned-url="v1.9.31"
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared="v1.15.0"
+github.com/aws/aws-sdk-go-v2/service/s3="v1.38.1"
+github.com/aws/aws-sdk-go-v2/service/sso="v1.13.1"
+github.com/aws/aws-sdk-go-v2/service/ssooidc="v1.15.1"
+github.com/aws/aws-sdk-go-v2/service/sts="v1.21.1"
+github.com/aws/aws-sdk-go-v2="v1.20.0"
+github.com/aws/aws-sdk-go="v1.48.2"
+github.com/aws/smithy-go="v1.14.0"
+github.com/bep/clocks="v0.5.0"
+github.com/bep/debounce="v1.2.0"
+github.com/bep/gitmap="v1.1.2"
+github.com/bep/goat="v0.5.0"
+github.com/bep/godartsass/v2="v2.0.0"
+github.com/bep/godartsass="v1.2.0"
+github.com/bep/golibsass="v1.1.1"
+github.com/bep/gowebp="v0.3.0"
+github.com/bep/lazycache="v0.2.0"
+github.com/bep/logg="v0.3.0"
+github.com/bep/mclib="v1.20400.20402"
+github.com/bep/overlayfs="v0.6.0"
+github.com/bep/simplecobra="v0.3.2"
+github.com/bep/tmc="v0.5.1"
+github.com/clbanning/mxj/v2="v2.7.0"
+github.com/cli/safeexec="v1.0.1"
+github.com/cpuguy83/go-md2man/v2="v2.0.2"
+github.com/disintegration/gift="v1.2.1"
+github.com/dlclark/regexp2="v1.10.0"
+github.com/dustin/go-humanize="v1.0.1"
+github.com/evanw/esbuild="v0.19.7"
+github.com/fatih/color="v1.16.0"
+github.com/frankban/quicktest="v1.14.6"
+github.com/fsnotify/fsnotify="v1.7.0"
+github.com/getkin/kin-openapi="v0.120.0"
+github.com/ghodss/yaml="v1.0.0"
+github.com/go-openapi/jsonpointer="v0.19.6"
+github.com/go-openapi/swag="v0.22.4"
+github.com/gobuffalo/flect="v1.0.2"
+github.com/gobwas/glob="v0.2.3"
+github.com/gohugoio/go-i18n/v2="v2.1.3-0.20230805085216-e63c13218d0e"
+github.com/gohugoio/locales="v0.14.0"
+github.com/gohugoio/localescompressed="v1.0.1"
+github.com/golang-jwt/jwt/v4="v4.5.0"
+github.com/golang/groupcache="v0.0.0-20210331224755-41bb18bfe9da"
+github.com/golang/protobuf="v1.5.3"
+github.com/google/go-cmp="v0.6.0"
+github.com/google/s2a-go="v0.1.7"
+github.com/google/uuid="v1.4.0"
+github.com/google/wire="v0.5.0"
+github.com/googleapis/enterprise-certificate-proxy="v0.3.2"
+github.com/googleapis/gax-go/v2="v2.12.0"
+github.com/gorilla/websocket="v1.5.1"
+github.com/hairyhenderson/go-codeowners="v0.4.0"
+github.com/hashicorp/golang-lru/v2="v2.0.1"
+github.com/invopop/yaml="v0.2.0"
+github.com/jdkato/prose="v1.2.1"
+github.com/jmespath/go-jmespath="v0.4.0"
+github.com/josharian/intern="v1.0.0"
+github.com/kr/pretty="v0.3.1"
+github.com/kr/text="v0.2.0"
+github.com/kylelemons/godebug="v1.1.0"
+github.com/kyokomi/emoji/v2="v2.2.12"
+github.com/mailru/easyjson="v0.7.7"
+github.com/marekm4/color-extractor="v1.2.1"
+github.com/mattn/go-colorable="v0.1.13"
+github.com/mattn/go-isatty="v0.0.20"
+github.com/mattn/go-runewidth="v0.0.9"
+github.com/mitchellh/hashstructure="v1.1.0"
+github.com/mitchellh/mapstructure="v1.5.0"
+github.com/mohae/deepcopy="v0.0.0-20170929034955-c48cc78d4826"
+github.com/muesli/smartcrop="v0.3.0"
+github.com/niklasfasching/go-org="v1.7.0"
+github.com/olekukonko/tablewriter="v0.0.5"
+github.com/pelletier/go-toml/v2="v2.1.0"
+github.com/perimeterx/marshmallow="v1.1.5"
+github.com/pkg/browser="v0.0.0-20210911075715-681adbf594b8"
+github.com/pkg/errors="v0.9.1"
+github.com/rogpeppe/go-internal="v1.11.0"
+github.com/russross/blackfriday/v2="v2.1.0"
+github.com/rwcarlsen/goexif="v0.0.0-20190401172101-9e8deecbddbd"
+github.com/sanity-io/litter="v1.5.5"
+github.com/sass/dart-sass/compiler="1.63.2"
+github.com/sass/dart-sass/implementation="1.63.2"
+github.com/sass/dart-sass/protocol="2.0.0"
+github.com/sass/libsass="3.6.5"
+github.com/spf13/afero="v1.10.0"
+github.com/spf13/cast="v1.5.1"
+github.com/spf13/cobra="v1.7.0"
+github.com/spf13/fsync="v0.9.0"
+github.com/spf13/pflag="v1.0.5"
+github.com/tdewolff/minify/v2="v2.20.7"
+github.com/tdewolff/parse/v2="v2.7.5"
+github.com/webmproject/libwebp="v1.3.2"
+github.com/yuin/goldmark-emoji="v1.0.2"
+github.com/yuin/goldmark="v1.6.0"
+go.opencensus.io="v0.24.0"
+go.uber.org/atomic="v1.11.0"
+go.uber.org/automaxprocs="v1.5.3"
+gocloud.dev="v0.34.0"
+golang.org/x/crypto="v0.15.0"
+golang.org/x/exp="v0.0.0-20221031165847-c99f073a8326"
+golang.org/x/image="v0.13.0"
+golang.org/x/mod="v0.14.0"
+golang.org/x/net="v0.18.0"
+golang.org/x/oauth2="v0.13.0"
+golang.org/x/sync="v0.5.0"
+golang.org/x/sys="v0.14.0"
+golang.org/x/text="v0.14.0"
+golang.org/x/time="v0.3.0"
+golang.org/x/tools="v0.15.0"
+golang.org/x/xerrors="v0.0.0-20220907171357-04be3eba64a2"
+google.golang.org/api="v0.151.0"
+google.golang.org/genproto/googleapis/api="v0.0.0-20231016165738-49dd2c1f3d0b"
+google.golang.org/genproto/googleapis/rpc="v0.0.0-20231030173426-d783a09b4405"
+google.golang.org/genproto="v0.0.0-20231016165738-49dd2c1f3d0b"
+google.golang.org/grpc="v1.59.0"
+google.golang.org/protobuf="v1.31.0"
+gopkg.in/yaml.v2="v2.4.0"
+gopkg.in/yaml.v3="v3.0.1"
+howett.net/plist="v1.0.0"
+software.sslmate.com/src/go-pkcs12="v0.2.0"
+```
+</details>
