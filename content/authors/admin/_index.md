@@ -11,6 +11,9 @@ role: Researcher and Engineer
 # Organizations/Affiliations
 organizations:
 
+- name: Boon Logic
+  url: https://www.boonlogic.com
+
 - name: EpiSci
   url: https://www.episci.com
 
