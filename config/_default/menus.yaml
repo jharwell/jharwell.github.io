@@ -37,7 +37,7 @@ main:
 
   - name: Resume
     parent: CV/Resume
-    url: "/media/john-harwell-industry-cv-v19.pdf"
+    url: "/media/john-harwell-industry-cv-v23.pdf"
 
   - name: Academic CV
     parent: CV/Resume
